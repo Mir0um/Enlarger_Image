@@ -62,7 +62,7 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration 
 
 ## Crédits
 
-*   **Créateur** : [Votre Nom]
+*   **Créateur** : Sartoris Jean-Paul (Miroum)
 *   **Inspiration** : Ce projet est fortement inspiré par l'excellente extension [**Imagus** de TheFantasticWarrior](https://github.com/TheFantasticWarrior/chrome-extension-imagus), qui a défini des standards élevés dans ce domaine.
 
 ## Licence
