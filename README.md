@@ -10,9 +10,7 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 
 ## Démonstration
 
-*(Il est fortement recommandé de créer une courte vidéo ou un GIF animé montrant l'extension en action et de le placer ici. Vous pouvez utiliser des outils comme LICEcap ou ScreenToGif pour cela.)*
-
-`![Démonstration de Vision Aid Magnifier](demo.gif)`
+![Démonstration de Vision Aid Magnifier](demo.gif)
 
 ## Fonctionnalités principales
 
