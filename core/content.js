@@ -8,19 +8,21 @@
     
     let zoomOverlay, zoomOverlayImage;
     let zoomViewer, zoomViewerImage;
-    let mouseMoveTimer;
+    let rafId = null;
+    let lastMouseX = 0;
+    let lastMouseY = 0;
 
     // NOUVEAU: Fonction utilitaire pour vérifier si une URL pointe vers une image
     // C'est plus robuste que de simplement vérifier l'extension.
     function isImageUrl(url) {
         try {
-            // Utilise l'API URL pour analyser le lien de manière fiable
-            const path = new URL(url).pathname.toLowerCase();
+            // Utilise l'API URL pour analyser le lien (gère aussi les URLs relatives)
+            const path = new URL(url, location.href).pathname.toLowerCase();
             const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp'];
             // Vérifie si le chemin de l'URL se termine par une extension d'image
             return imageExtensions.some(ext => path.endsWith(ext));
         } catch (e) {
-            // Si l'URL est invalide (ex: "javascript:void(0)"), on retourne false
+            // Si l'URL est invalide (ex: "javascript:void(0)")
             return false;
         }
     }
@@ -61,8 +63,12 @@
     function hideAllZoom() {
         if (zoomOverlay) zoomOverlay.style.display = 'none';
         if (zoomViewer) zoomViewer.style.display = 'none';
-        
+
         document.removeEventListener('mousemove', handleMouseMove);
+        if (rafId !== null) {
+            cancelAnimationFrame(rafId);
+            rafId = null;
+        }
         // La gestion du mouseout est maintenant sur l'élément lui-même, pas besoin de le retirer ici.
     }
 
@@ -91,11 +97,16 @@
     
     function handleMouseMove(event) {
         if (settings.zoomMode !== 'natural') return;
-        
-        clearTimeout(mouseMoveTimer);
-        mouseMoveTimer = setTimeout(() => {
-            positionViewer(event.clientX, event.clientY);
-        }, 16);
+
+        lastMouseX = event.clientX;
+        lastMouseY = event.clientY;
+
+        if (rafId === null) {
+            rafId = requestAnimationFrame(() => {
+                positionViewer(lastMouseX, lastMouseY);
+                rafId = null;
+            });
+        }
     }
 
     // MODIFIÉ: La fonction accepte directement une URL, la rendant plus flexible
