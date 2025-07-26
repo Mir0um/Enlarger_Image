@@ -1,0 +1,52 @@
+/* L'overlay plein écran pour le mode "Pleine page" (inchangé) */
+#image-zoom-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99999999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none; /* Ne capture pas la souris */
+}
+
+#image-zoom-overlay img {
+  width: 100%;
+  height: 100%;
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain; /* Affiche l'image aussi grande que possible sans déformer le ratio */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  animation: zoomIn 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* NOUVEAU: Le conteneur pour l'agrandissement à côté du curseur */
+#image-zoom-viewer {
+  position: fixed; /* Positionné par rapport à la fenêtre */
+  z-index: 99999999;
+  display: none; /* Caché par défaut */
+  pointer-events: none; /* Pour éviter que la loupe ne se survole elle-même */
+  border: 2px solid white;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.35);
+  border-radius: 4px;
+  background-color: black; /* Un fond si l'image est transparente */
+  transition: top 0.1s ease-out, left 0.1s ease-out; /* Mouvement fluide */
+  overflow: visible; /* Correction : ne pas rogner l'image à l'intérieur du viewer */
+}
+
+#image-zoom-viewer img {
+  /* L'image sera affichée à 200% de sa taille naturelle si possible, sans dépasser la fenêtre */
+  width: 100%;
+  height: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+
+@keyframes zoomIn {
+0% { transform: scale(0.8); opacity: 0; }
+100% { transform: scale(1); opacity: 1; }
+}

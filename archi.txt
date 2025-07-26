@@ -1,0 +1,14 @@
+/image-magnifier-extension
+|-- manifest.json              # Fichier de configuration principal
+|-- icons/                     # Dossier pour les icônes de l'extension
+|   |-- icon16.png
+|   |-- icon48.png
+|   |-- icon128.png
+|-- popup/                     # Fichiers pour la fenêtre du popup
+|   |-- popup.html
+|   |-- popup.js
+|   |-- popup.css
+|-- core/                      # Fichiers principaux de l'extension
+|   |-- background.js          # Service Worker (logique de fond)
+|   |-- content.js             # Script injecté dans les pages web
+|   |-- zoom.css               # Styles pour la loupe d'image
