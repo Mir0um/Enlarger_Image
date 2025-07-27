@@ -1,4 +1,4 @@
-# Vision Aid: Image Magnifier
+# Image Agrandisseur
 
 ![Icône de l'extension](icons/icon128.png)
 
@@ -10,7 +10,7 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 
 ## Démonstration
 
-![Démonstration de Vision Aid Magnifier](demo.gif)
+![Démonstration de Image Agrandisseur](demo.gif)
 
 ## Fonctionnalités principales
 
@@ -39,7 +39,7 @@ L'extension n'étant pas encore sur le Chrome Web Store, vous pouvez l'installer
     *   Cliquez sur le bouton **"Charger l'extension non empaquetée"**.
     *   Une fenêtre de sélection de dossier s'ouvre. Naviguez jusqu'au dossier du projet (celui qui contient `manifest.json`) et sélectionnez-le.
 
-5.  **C'est terminé !** L'icône de Vision Aid Magnifier devrait apparaître dans votre barre d'outils Chrome.
+5.  **C'est terminé !** L'icône de Image Agrandisseur devrait apparaître dans votre barre d'outils Chrome.
 
 ## Comment l'utiliser
 
