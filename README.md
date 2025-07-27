@@ -1,4 +1,5 @@
 # Image Agrandisseur
+*[English version](README_EN.md)*
 
 ![Icône de l'extension](icons/icon128.png)
 
