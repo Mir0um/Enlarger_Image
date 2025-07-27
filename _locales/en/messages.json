@@ -1,0 +1,38 @@
+{
+  "extensionName": {
+    "message": "Vision Aid: Image Magnifier"
+  },
+  "extensionDescription": {
+    "message": "Enlarge images on hover for better accessibility. Perfect for visually impaired users."
+  },
+  "actionPopupTitle": {
+    "message": "Vision Aid Options"
+  },
+  "headingMain": {
+    "message": "Vision Aid Magnifier"
+  },
+  "descriptionMain": {
+    "message": "Hover over an image or link to an image to enlarge it instantly."
+  },
+  "labelEnableExtension": {
+    "message": "Enable extension"
+  },
+  "sectionZoomTitle": {
+    "message": "Magnification mode"
+  },
+  "radioNaturalLabel": {
+    "message": "Double size (side)"
+  },
+  "radioPageLabel": {
+    "message": "Full width (overlay)"
+  },
+  "footerCreatedBy": {
+    "message": "Created by <strong>Miroum</strong>"
+  },
+  "footerGithubLink": {
+    "message": "See the project on GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Inspired by"
+  }
+}
