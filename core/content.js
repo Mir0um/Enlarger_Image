@@ -118,8 +118,22 @@
             zoomViewerImage.src = imageUrl;
             
             zoomViewerImage.onload = () => {
-                const newWidth = zoomViewerImage.naturalWidth * 2;
-                const newHeight = zoomViewerImage.naturalHeight * 2;
+                const offset = 20;
+                const viewportWidth = window.innerWidth;
+                const viewportHeight = window.innerHeight;
+                const spaceLeft = event.clientX - offset;
+                const spaceRight = viewportWidth - event.clientX - offset;
+                const maxHorizontalSpace = Math.max(spaceLeft, spaceRight);
+
+                let newWidth = zoomViewerImage.naturalWidth * 2;
+                let newHeight = zoomViewerImage.naturalHeight * 2;
+
+                const widthLimit = Math.min(maxHorizontalSpace, viewportWidth * 0.9);
+                const heightLimit = viewportHeight * 0.9;
+                const ratio = Math.min(widthLimit / newWidth, heightLimit / newHeight, 1);
+                newWidth *= ratio;
+                newHeight *= ratio;
+
                 zoomViewerImage.style.width = `${newWidth}px`;
                 zoomViewerImage.style.height = `${newHeight}px`;
 
@@ -133,18 +147,21 @@
 
     function positionViewer(mouseX, mouseY) {
         if (!zoomViewer || zoomViewer.style.display === 'none') return;
-        
+
         const offset = 20;
         const viewerWidth = zoomViewer.offsetWidth;
         const viewerHeight = zoomViewer.offsetHeight;
         const viewportWidth = window.innerWidth;
         const viewportHeight = window.innerHeight;
 
-        const spaceOnRight = viewportWidth - mouseX - viewerWidth - offset;
-        if (spaceOnRight > 0 || mouseX < viewerWidth + offset) {
-            zoomViewer.style.left = `${mouseX + offset}px`;
+        const spaceRight = viewportWidth - mouseX - offset;
+        const spaceLeft = mouseX - offset;
+
+        let left;
+        if (spaceRight >= spaceLeft) {
+            left = Math.min(mouseX + offset, viewportWidth - viewerWidth - offset);
         } else {
-            zoomViewer.style.left = `${mouseX - viewerWidth - offset}px`;
+            left = Math.max(offset, mouseX - viewerWidth - offset);
         }
 
         let top = mouseY - (viewerHeight / 2);
@@ -152,6 +169,8 @@
         if (top + viewerHeight > viewportHeight - offset) {
             top = viewportHeight - viewerHeight - offset;
         }
+
+        zoomViewer.style.left = `${left}px`;
         zoomViewer.style.top = `${top}px`;
     }
 
