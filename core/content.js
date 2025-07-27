@@ -6,8 +6,8 @@
 
     let settings = { extensionEnabled: true, zoomMode: 'natural' };
     
-    let zoomOverlay, zoomOverlayImage;
-    let zoomViewer, zoomViewerImage;
+    let zoomOverlay, zoomOverlayImage, zoomOverlayVideo;
+    let zoomViewer, zoomViewerImage, zoomViewerVideo;
     let rafId = null;
     let lastMouseX = 0;
     let lastMouseY = 0;
@@ -18,11 +18,21 @@
         try {
             // Utilise l'API URL pour analyser le lien (gère aussi les URLs relatives)
             const path = new URL(url, location.href).pathname.toLowerCase();
-            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp'];
+            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp', '.apng', '.ico', '.tif', '.tiff'];
             // Vérifie si le chemin de l'URL se termine par une extension d'image
             return imageExtensions.some(ext => path.endsWith(ext));
         } catch (e) {
             // Si l'URL est invalide (ex: "javascript:void(0)")
+            return false;
+        }
+    }
+
+    function isVideoUrl(url) {
+        try {
+            const path = new URL(url, location.href).pathname.toLowerCase();
+            const videoExtensions = ['.mp4', '.webm', '.ogg', '.ogv', '.mov', '.mkv', '.flv'];
+            return videoExtensions.some(ext => path.endsWith(ext));
+        } catch (e) {
             return false;
         }
     }
@@ -33,12 +43,18 @@
         zoomOverlay = document.createElement('div');
         zoomOverlay.id = 'image-zoom-overlay';
         zoomOverlayImage = document.createElement('img');
+        zoomOverlayVideo = document.createElement('video');
+        Object.assign(zoomOverlayVideo, { autoplay: true, muted: true, loop: true });
         zoomOverlay.appendChild(zoomOverlayImage);
+        zoomOverlay.appendChild(zoomOverlayVideo);
 
         zoomViewer = document.createElement('div');
         zoomViewer.id = 'image-zoom-viewer';
         zoomViewerImage = document.createElement('img');
+        zoomViewerVideo = document.createElement('video');
+        Object.assign(zoomViewerVideo, { autoplay: true, muted: true, loop: true });
         zoomViewer.appendChild(zoomViewerImage);
+        zoomViewer.appendChild(zoomViewerVideo);
 
         document.body.appendChild(zoomOverlay);
         document.body.appendChild(zoomViewer);
@@ -61,8 +77,20 @@
     }
 
     function hideAllZoom() {
-        if (zoomOverlay) zoomOverlay.style.display = 'none';
-        if (zoomViewer) zoomViewer.style.display = 'none';
+        if (zoomOverlay) {
+            zoomOverlay.style.display = 'none';
+        }
+        if (zoomViewer) {
+            zoomViewer.style.display = 'none';
+        }
+        if (zoomOverlayVideo) {
+            zoomOverlayVideo.pause();
+            zoomOverlayVideo.removeAttribute('src');
+        }
+        if (zoomViewerVideo) {
+            zoomViewerVideo.pause();
+            zoomViewerVideo.removeAttribute('src');
+        }
 
         document.removeEventListener('mousemove', handleMouseMove);
         if (rafId !== null) {
@@ -75,23 +103,37 @@
     // MODIFIÉ: Logique de détection unifiée
     function handleMouseOver(event) {
         const target = event.target;
-        let imageUrl = null;
+        let mediaUrl = null;
+        let mediaType = 'image';
 
         // Cas 1: C'est une balise <img>
         if (target.tagName === 'IMG' && target.src) {
             if (target.clientWidth < 50 || target.clientHeight < 50) return;
-            imageUrl = target.src;
-        } 
+            mediaUrl = target.src;
+            mediaType = 'image';
+        }
+        // Cas 1b: Balise <video>
+        else if (target.tagName === 'VIDEO' && (target.currentSrc || target.src)) {
+            if (target.clientWidth < 50 || target.clientHeight < 50) return;
+            mediaUrl = target.currentSrc || target.src;
+            mediaType = 'video';
+        }
         // Cas 2: C'est un lien <a> qui pointe vers une image
-        else if (target.tagName === 'A' && target.href && isImageUrl(target.href)) {
-            imageUrl = target.href;
+        else if (target.tagName === 'A' && target.href) {
+            if (isImageUrl(target.href)) {
+                mediaUrl = target.href;
+                mediaType = 'image';
+            } else if (isVideoUrl(target.href)) {
+                mediaUrl = target.href;
+                mediaType = 'video';
+            }
         }
 
         // Si on a trouvé une URL d'image, on lance la prévisualisation
-        if (imageUrl) {
+        if (mediaUrl) {
             // On attache l'écouteur de sortie sur l'élément déclencheur pour plus de fiabilité
             target.addEventListener('mouseout', hideAllZoom, { once: true });
-            showZoom(imageUrl, event);
+            showZoom(mediaUrl, event, mediaType);
         }
     }
     
@@ -109,40 +151,73 @@
         }
     }
 
-    // MODIFIÉ: La fonction accepte directement une URL, la rendant plus flexible
-    function showZoom(imageUrl, event) {
+    // MODIFIÉ: La fonction accepte directement une URL et le type de média
+    function showZoom(mediaUrl, event, type = 'image') {
+        hideAllZoom();
+
         if (settings.zoomMode === 'page') {
-            zoomOverlayImage.src = imageUrl;
+            if (type === 'video') {
+                zoomOverlayVideo.src = mediaUrl;
+                zoomOverlayVideo.style.display = 'block';
+                zoomOverlayImage.style.display = 'none';
+            } else {
+                zoomOverlayImage.src = mediaUrl;
+                zoomOverlayImage.style.display = 'block';
+                zoomOverlayVideo.style.display = 'none';
+            }
             zoomOverlay.style.display = 'flex';
         } else { // Mode "natural" (doublé)
-            zoomViewerImage.src = imageUrl;
-            
-            zoomViewerImage.onload = () => {
-                const offset = 20;
-                const viewportWidth = window.innerWidth;
-                const viewportHeight = window.innerHeight;
-                const spaceLeft = event.clientX - offset;
-                const spaceRight = viewportWidth - event.clientX - offset;
-                const maxHorizontalSpace = Math.max(spaceLeft, spaceRight);
+            if (type === 'video') {
+                zoomViewerVideo.src = mediaUrl;
+                zoomViewerVideo.onloadedmetadata = () => {
+                    const dimensions = {
+                        width: zoomViewerVideo.videoWidth * 2,
+                        height: zoomViewerVideo.videoHeight * 2
+                    };
+                    adjustViewerSize(zoomViewerVideo, dimensions, event);
+                    zoomViewerVideo.onloadedmetadata = null;
+                };
+                zoomViewerImage.style.display = 'none';
+                zoomViewerVideo.style.display = 'block';
+            } else {
+                zoomViewerImage.src = mediaUrl;
 
-                let newWidth = zoomViewerImage.naturalWidth * 2;
-                let newHeight = zoomViewerImage.naturalHeight * 2;
-
-                const widthLimit = Math.min(maxHorizontalSpace, viewportWidth * 0.9);
-                const heightLimit = viewportHeight * 0.9;
-                const ratio = Math.min(widthLimit / newWidth, heightLimit / newHeight, 1);
-                newWidth *= ratio;
-                newHeight *= ratio;
-
-                zoomViewerImage.style.width = `${newWidth}px`;
-                zoomViewerImage.style.height = `${newHeight}px`;
-
-                document.addEventListener('mousemove', handleMouseMove);
-                positionViewer(event.clientX, event.clientY);
-                zoomViewer.style.display = 'block';
-                zoomViewerImage.onload = null;
-            };
+                zoomViewerImage.onload = () => {
+                    const dimensions = {
+                        width: zoomViewerImage.naturalWidth * 2,
+                        height: zoomViewerImage.naturalHeight * 2
+                    };
+                    adjustViewerSize(zoomViewerImage, dimensions, event);
+                    zoomViewerImage.onload = null;
+                };
+                zoomViewerVideo.style.display = 'none';
+                zoomViewerImage.style.display = 'block';
+            }
+            document.addEventListener('mousemove', handleMouseMove);
+            positionViewer(event.clientX, event.clientY);
+            zoomViewer.style.display = 'block';
         }
+    }
+
+    function adjustViewerSize(element, dimensions, event) {
+        const offset = 20;
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+        const spaceLeft = event.clientX - offset;
+        const spaceRight = viewportWidth - event.clientX - offset;
+        const maxHorizontalSpace = Math.max(spaceLeft, spaceRight);
+
+        let newWidth = dimensions.width;
+        let newHeight = dimensions.height;
+
+        const widthLimit = Math.min(maxHorizontalSpace, viewportWidth * 0.9);
+        const heightLimit = viewportHeight * 0.9;
+        const ratio = Math.min(widthLimit / newWidth, heightLimit / newHeight, 1);
+        newWidth *= ratio;
+        newHeight *= ratio;
+
+        element.style.width = `${newWidth}px`;
+        element.style.height = `${newHeight}px`;
     }
 
     function positionViewer(mouseX, mouseY) {

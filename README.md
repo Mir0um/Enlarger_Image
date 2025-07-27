@@ -15,7 +15,8 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 ## Fonctionnalités principales
 
 *   **Agrandissement au survol** : Pas besoin de cliquer, il suffit de passer la souris sur un élément pour l'activer.
-*   **Détection Intelligente** : Fonctionne sur les balises `<img>` standards ainsi que sur les liens `<a>` qui pointent directement vers un fichier image (`.jpg`, `.png`, `.gif`, etc.).
+*   **Détection Intelligente** : Fonctionne sur les balises `<img>` et `<video>` ainsi que sur les liens `<a>` pointant vers des fichiers image ou vidéo (formats courants comme `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
+*   **Lecture automatique des vidéos** : Lorsqu'une vidéo est détectée, elle se lance automatiquement dans la fenêtre d'aperçu.
 *   **Deux Modes d'Affichage** :
     1.  **Taille Doublée (côté)** : Affiche l'image à 200% de sa taille originale dans une fenêtre à côté du curseur. La fenêtre se positionne intelligemment à droite ou à gauche pour ne jamais sortir de l'écran.
     2.  **Pleine Largeur (superposé)** : Affiche l'image en grand format, superposée au contenu de la page et occupant la largeur de la fenêtre.
