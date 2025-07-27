@@ -157,10 +157,21 @@
 
         if (settings.zoomMode === 'page') {
             if (type === 'video') {
+                zoomOverlayImage.removeAttribute('src');
+                zoomOverlayImage.style.width = '';
+                zoomOverlayImage.style.height = '';
+
+                zoomOverlayVideo.onerror = hideAllZoom;
                 zoomOverlayVideo.src = mediaUrl;
                 zoomOverlayVideo.style.display = 'block';
                 zoomOverlayImage.style.display = 'none';
             } else {
+                zoomOverlayVideo.pause();
+                zoomOverlayVideo.removeAttribute('src');
+                zoomOverlayVideo.style.width = '';
+                zoomOverlayVideo.style.height = '';
+
+                zoomOverlayImage.onerror = hideAllZoom;
                 zoomOverlayImage.src = mediaUrl;
                 zoomOverlayImage.style.display = 'block';
                 zoomOverlayVideo.style.display = 'none';
@@ -168,6 +179,11 @@
             zoomOverlay.style.display = 'flex';
         } else { // Mode "natural" (doublé)
             if (type === 'video') {
+                zoomViewerImage.removeAttribute('src');
+                zoomViewerImage.style.width = '';
+                zoomViewerImage.style.height = '';
+
+                zoomViewerVideo.onerror = hideAllZoom;
                 zoomViewerVideo.src = mediaUrl;
                 zoomViewerVideo.onloadedmetadata = () => {
                     const dimensions = {
@@ -180,6 +196,12 @@
                 zoomViewerImage.style.display = 'none';
                 zoomViewerVideo.style.display = 'block';
             } else {
+                zoomViewerVideo.pause();
+                zoomViewerVideo.removeAttribute('src');
+                zoomViewerVideo.style.width = '';
+                zoomViewerVideo.style.height = '';
+
+                zoomViewerImage.onerror = hideAllZoom;
                 zoomViewerImage.src = mediaUrl;
 
                 zoomViewerImage.onload = () => {
@@ -198,7 +220,7 @@
             zoomViewer.style.display = 'block';
         }
     }
-
+    
     function adjustViewerSize(element, dimensions, event) {
         const offset = 20;
         const viewportWidth = window.innerWidth;
