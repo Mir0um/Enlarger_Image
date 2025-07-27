@@ -4,8 +4,7 @@
   "version": "2.0.0",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "permissions": [
-    "storage",      
+  "permissions": [      
     "scripting"     
   ],
   "host_permissions": [
