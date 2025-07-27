@@ -1,4 +1,4 @@
-# Vision Aid: Image Magnifier
+# Image Agrandisseur
 
 ![Icône de l'extension](icons/icon128.png)
 
@@ -10,12 +10,13 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 
 ## Démonstration
 
-![Démonstration de Vision Aid Magnifier](demo.gif)
+![Démonstration de Image Agrandisseur](demo.gif)
 
 ## Fonctionnalités principales
 
 *   **Agrandissement au survol** : Pas besoin de cliquer, il suffit de passer la souris sur un élément pour l'activer.
-*   **Détection Intelligente** : Fonctionne sur les balises `<img>` standards ainsi que sur les liens `<a>` qui pointent directement vers un fichier image (`.jpg`, `.png`, `.gif`, etc.).
+*   **Détection Intelligente** : Fonctionne sur les balises `<img>` et `<video>` ainsi que sur les liens `<a>` pointant vers des fichiers image ou vidéo (formats courants comme `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
+*   **Lecture automatique des vidéos** : Lorsqu'une vidéo est détectée, elle se lance automatiquement dans la fenêtre d'aperçu.
 *   **Deux Modes d'Affichage** :
     1.  **Taille Doublée (côté)** : Affiche l'image à 200% de sa taille originale dans une fenêtre à côté du curseur. La fenêtre se positionne intelligemment à droite ou à gauche pour ne jamais sortir de l'écran.
     2.  **Pleine Largeur (superposé)** : Affiche l'image en grand format, superposée au contenu de la page et occupant la largeur de la fenêtre.
@@ -39,7 +40,7 @@ L'extension n'étant pas encore sur le Chrome Web Store, vous pouvez l'installer
     *   Cliquez sur le bouton **"Charger l'extension non empaquetée"**.
     *   Une fenêtre de sélection de dossier s'ouvre. Naviguez jusqu'au dossier du projet (celui qui contient `manifest.json`) et sélectionnez-le.
 
-5.  **C'est terminé !** L'icône de Vision Aid Magnifier devrait apparaître dans votre barre d'outils Chrome.
+5.  **C'est terminé !** L'icône de Image Agrandisseur devrait apparaître dans votre barre d'outils Chrome.
 
 ## Comment l'utiliser
 

@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Vision Aid: Image Magnifier"
+    "message": "Enlarger Image"
   },
   "extensionDescription": {
     "message": "Enlarge images on hover for better accessibility. Perfect for visually impaired users."
   },
   "actionPopupTitle": {
-    "message": "Vision Aid Options"
+    "message": "Enlarger Image Options"
   },
   "headingMain": {
-    "message": "Vision Aid Magnifier"
+    "message": "Enlarger Image"
   },
   "descriptionMain": {
     "message": "Hover over an image or link to an image to enlarge it instantly."
