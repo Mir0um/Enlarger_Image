@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Set page language to match browser UI
+    document.documentElement.lang = chrome.i18n.getUILanguage();
     // --- SÉLECTEURS ---
     const toggleSwitch = document.getElementById('toggle-extension');
     const zoomOptionsDiv = document.getElementById('zoom-options');

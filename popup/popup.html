@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Options Vision Aid</title>
+    <title>__MSG_actionPopupTitle__</title>
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Vision Aid Magnifier</h1>
-            <p class="description">
-                Survolez une image ou un lien vers une image pour l'agrandir instantanément.
-            </p>
+            <h1>__MSG_headingMain__</h1>
+            <p class="description">__MSG_descriptionMain__</p>
         </div>
 
         <div class="main-options">
             <div class="option">
-                <label for="toggle-extension" class="toggle-label">Activer l'extension</label>
+                <label for="toggle-extension" class="toggle-label">__MSG_labelEnableExtension__</label>
                 <label class="switch">
                     <input type="checkbox" id="toggle-extension">
                     <span class="slider"></span>
@@ -24,14 +22,14 @@
             </div>
             <hr>
             <div id="zoom-options" class="options-group">
-                <h2>Mode d'agrandissement</h2>
+                <h2>__MSG_sectionZoomTitle__</h2>
                 <div class="radio-option">
                     <input type="radio" id="zoom-natural" name="zoomMode" value="natural">
-                    <label for="zoom-natural">Taille doublée (côté)</label>
+                    <label for="zoom-natural">__MSG_radioNaturalLabel__</label>
                 </div>
                 <div class="radio-option">
                     <input type="radio" id="zoom-page" name="zoomMode" value="page">
-                    <label for="zoom-page">Pleine largeur (superposé)</label>
+                    <label for="zoom-page">__MSG_radioPageLabel__</label>
                 </div>
             </div>
         </div>
@@ -39,10 +37,10 @@
         <hr class="footer-separator">
 
         <footer>
-            <p>Créé par <strong>Miroum</strong></p>
-            <a href="https://github.com/Mir0um/Vision-Aid-Image-Magnifier" id="github-link">Voir le projet sur GitHub</a>
+            <p>__MSG_footerCreatedBy__</p>
+            <a href="https://github.com/Mir0um/Vision-Aid-Image-Magnifier" id="github-link">__MSG_footerGithubLink__</a>
 
-            <p class="inspiration">Inspiré par <a href="https://github.com/TheFantasticWarrior/chrome-extension-imagus" id="imagus-link">Imagus</a></p>
+            <p class="inspiration">__MSG_footerInspiredBy__ <a href="https://github.com/TheFantasticWarrior/chrome-extension-imagus" id="imagus-link">Imagus</a></p>
         </footer>
     </div>
     <script src="popup.js"></script>

@@ -1,0 +1,38 @@
+{
+  "extensionName": {
+    "message": "Vision Aid: Image Magnifier"
+  },
+  "extensionDescription": {
+    "message": "Agrandit les images au survol pour une meilleure accessibilité. Parfait pour les utilisateurs ayant une déficience visuelle."
+  },
+  "actionPopupTitle": {
+    "message": "Options Vision Aid"
+  },
+  "headingMain": {
+    "message": "Vision Aid Magnifier"
+  },
+  "descriptionMain": {
+    "message": "Survolez une image ou un lien vers une image pour l'agrandir instantanément."
+  },
+  "labelEnableExtension": {
+    "message": "Activer l'extension"
+  },
+  "sectionZoomTitle": {
+    "message": "Mode d'agrandissement"
+  },
+  "radioNaturalLabel": {
+    "message": "Taille doublée (côté)"
+  },
+  "radioPageLabel": {
+    "message": "Pleine largeur (superposé)"
+  },
+  "footerCreatedBy": {
+    "message": "Créé par <strong>Miroum</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Voir le projet sur GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Inspiré par"
+  }
+}

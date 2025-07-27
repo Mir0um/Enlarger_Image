@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Vision Aid: Image Magnifier",
+  "name": "__MSG_extensionName__",
   "version": "2.0.0",
-  "description": "Agrandit les images au survol pour une meilleure accessibilité. Parfait pour les utilisateurs ayant une déficience visuelle.",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
   "permissions": [
     "storage",      
     "scripting"     
