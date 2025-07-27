@@ -67,12 +67,23 @@ document.addEventListener('DOMContentLoaded', () => {
 function localizeHtml() {
     const tokenRegex = /__MSG_(\w+)__/g;
 
-    // Replace text nodes
+    // Collect text nodes first so replacing them doesn't disturb the walker
+    const textNodes = [];
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-    while (walker.nextNode()) {
-        const node = walker.currentNode;
-        node.nodeValue = node.nodeValue.replace(tokenRegex, (_, key) => chrome.i18n.getMessage(key) || '');
+    let node;
+    while ((node = walker.nextNode())) {
+        textNodes.push(node);
     }
+
+    // Replace text node content (allowing HTML markup in translations)
+    textNodes.forEach(textNode => {
+        const original = textNode.nodeValue;
+        if (tokenRegex.test(original)) {
+            const replaced = original.replace(tokenRegex, (_, key) => chrome.i18n.getMessage(key) || '');
+            const frag = document.createRange().createContextualFragment(replaced);
+            textNode.replaceWith(frag);
+        }
+    });
 
     // Replace attribute values
     document.querySelectorAll('*').forEach(el => {
