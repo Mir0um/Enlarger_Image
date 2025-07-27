@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
             if (tab) {
-                chrome.tabs.sendMessage(tab.id, { type: 'SETTINGS_UPDATED' });
+                // Envoie un message au content script pour signaler que les paramètres ont été mis à jour
+                await chrome.tabs.sendMessage(tab.id, { type: 'SETTINGS_UPDATED' }).catch(() => {}); //
             }
         } catch (error) {
             console.error("Could not send message to content script:", error);

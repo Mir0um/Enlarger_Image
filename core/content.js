@@ -83,21 +83,21 @@
         if (zoomViewer) {
             zoomViewer.style.display = 'none';
         }
-        if (zoomOverlayImage) {
+        if (zoomOverlayImage instanceof HTMLElement) {
             zoomOverlayImage.removeAttribute('src');
             zoomOverlayImage.style.width = '';
             zoomOverlayImage.style.height = '';
             zoomOverlayImage.onerror = null;
             zoomOverlayImage.onload = null;
         }
-        if (zoomViewerImage) {
+        if (zoomViewerImage instanceof HTMLElement) {
             zoomViewerImage.removeAttribute('src');
             zoomViewerImage.style.width = '';
             zoomViewerImage.style.height = '';
             zoomViewerImage.onerror = null;
             zoomViewerImage.onload = null;
         }
-        if (zoomOverlayVideo) {
+        if (zoomOverlayVideo instanceof HTMLVideoElement) {
             zoomOverlayVideo.pause();
             zoomOverlayVideo.removeAttribute('src');
             zoomOverlayVideo.style.width = '';
@@ -105,7 +105,7 @@
             zoomOverlayVideo.onerror = null;
             zoomOverlayVideo.onloadedmetadata = null;
         }
-        if (zoomViewerVideo) {
+        if (zoomViewerVideo instanceof HTMLVideoElement) {
             zoomViewerVideo.pause();
             zoomViewerVideo.removeAttribute('src');
             zoomViewerVideo.style.width = '';
@@ -209,9 +209,11 @@
             zoomOverlay.style.display = 'flex';
         } else { // Mode "natural" (doublé)
             if (type === 'video') {
-                zoomViewerImage.removeAttribute('src');
-                zoomViewerImage.style.width = '';
-                zoomViewerImage.style.height = '';
+                if (zoomViewerImage instanceof HTMLElement) {
+                    zoomViewerImage.removeAttribute('src');
+                    zoomViewerImage.style.width = '';
+                    zoomViewerImage.style.height = '';
+                }
 
                 zoomViewerVideo.onerror = hideAllZoom;
                 zoomViewerVideo.src = mediaUrl;
@@ -227,10 +229,12 @@
                 zoomViewerImage.style.display = 'none';
                 zoomViewerVideo.style.display = 'block';
             } else {
-                zoomViewerVideo.pause();
-                zoomViewerVideo.removeAttribute('src');
-                zoomViewerVideo.style.width = '';
-                zoomViewerVideo.style.height = '';
+                if (zoomViewerVideo instanceof HTMLVideoElement) {
+                    zoomViewerVideo.pause();
+                    zoomViewerVideo.removeAttribute('src');
+                    zoomViewerVideo.style.width = '';
+                    zoomViewerVideo.style.height = '';
+                }
 
                 zoomViewerImage.onerror = hideAllZoom;
                 zoomViewerImage.src = mediaUrl;
