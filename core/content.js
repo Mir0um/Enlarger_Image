@@ -83,13 +83,35 @@
         if (zoomViewer) {
             zoomViewer.style.display = 'none';
         }
+        if (zoomOverlayImage) {
+            zoomOverlayImage.removeAttribute('src');
+            zoomOverlayImage.style.width = '';
+            zoomOverlayImage.style.height = '';
+            zoomOverlayImage.onerror = null;
+            zoomOverlayImage.onload = null;
+        }
+        if (zoomViewerImage) {
+            zoomViewerImage.removeAttribute('src');
+            zoomViewerImage.style.width = '';
+            zoomViewerImage.style.height = '';
+            zoomViewerImage.onerror = null;
+            zoomViewerImage.onload = null;
+        }
         if (zoomOverlayVideo) {
             zoomOverlayVideo.pause();
             zoomOverlayVideo.removeAttribute('src');
+            zoomOverlayVideo.style.width = '';
+            zoomOverlayVideo.style.height = '';
+            zoomOverlayVideo.onerror = null;
+            zoomOverlayVideo.onloadedmetadata = null;
         }
         if (zoomViewerVideo) {
             zoomViewerVideo.pause();
             zoomViewerVideo.removeAttribute('src');
+            zoomViewerVideo.style.width = '';
+            zoomViewerVideo.style.height = '';
+            zoomViewerVideo.onerror = null;
+            zoomViewerVideo.onloadedmetadata = null;
         }
 
         document.removeEventListener('mousemove', handleMouseMove);
@@ -162,6 +184,10 @@
                 zoomOverlayImage.style.height = '';
 
                 zoomOverlayVideo.onerror = hideAllZoom;
+                zoomOverlayVideo.onloadedmetadata = () => {
+                    zoomOverlayVideo.onerror = null;
+                    zoomOverlayVideo.onloadedmetadata = null;
+                };
                 zoomOverlayVideo.src = mediaUrl;
                 zoomOverlayVideo.style.display = 'block';
                 zoomOverlayImage.style.display = 'none';
@@ -172,6 +198,10 @@
                 zoomOverlayVideo.style.height = '';
 
                 zoomOverlayImage.onerror = hideAllZoom;
+                zoomOverlayImage.onload = () => {
+                    zoomOverlayImage.onerror = null;
+                    zoomOverlayImage.onload = null;
+                };
                 zoomOverlayImage.src = mediaUrl;
                 zoomOverlayImage.style.display = 'block';
                 zoomOverlayVideo.style.display = 'none';
@@ -186,6 +216,7 @@
                 zoomViewerVideo.onerror = hideAllZoom;
                 zoomViewerVideo.src = mediaUrl;
                 zoomViewerVideo.onloadedmetadata = () => {
+                    zoomViewerVideo.onerror = null;
                     const dimensions = {
                         width: zoomViewerVideo.videoWidth * 2,
                         height: zoomViewerVideo.videoHeight * 2
@@ -203,8 +234,8 @@
 
                 zoomViewerImage.onerror = hideAllZoom;
                 zoomViewerImage.src = mediaUrl;
-
                 zoomViewerImage.onload = () => {
+                    zoomViewerImage.onerror = null;
                     const dimensions = {
                         width: zoomViewerImage.naturalWidth * 2,
                         height: zoomViewerImage.naturalHeight * 2
