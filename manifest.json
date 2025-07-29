@@ -8,8 +8,8 @@
     "storage",
     "scripting"     
   ],
-  "host_permissions": [
-    "<all_urls>"   
+  "permissions": [
+    "activeTab"
   ],
   "background": {
     "service_worker": "core/background.js"
