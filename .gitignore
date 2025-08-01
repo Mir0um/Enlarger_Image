@@ -1,0 +1,4 @@
+# Ignore Windows system files
+Thumbs.db
+
+icons/Thumbs.db
