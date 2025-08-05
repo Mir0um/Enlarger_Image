@@ -29,11 +29,39 @@ h1 {
     margin: 0;
 }
 
+
 .option, .radio-option {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.option-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 0;
+}
+
+.option-description {
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+}
+
+.group-description {
+    font-size: 13px;
+    color: #555;
+    margin: 0 0 10px 0;
+}
+
+.radio-option .option-content {
+    justify-content: flex-start;
+}
+
+.radio-option .option-content label {
+    margin-left: 8px;
 }
 
 label {

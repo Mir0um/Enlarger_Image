@@ -29,6 +29,21 @@
   "labelZoomFactor": {
     "message": "Facteur de zoom"
   },
+  "descEnableExtension": {
+    "message": "Active ou désactive l'agrandisseur d'image."
+  },
+  "descZoomOptions": {
+    "message": "Choisissez comment les images agrandies sont affichées."
+  },
+  "descRadioNatural": {
+    "message": "Affiche l'image agrandie à côté de l'originale."
+  },
+  "descRadioPage": {
+    "message": "Superpose l'image agrandie sur la page."
+  },
+  "descZoomFactor": {
+    "message": "Définit le niveau d'agrandissement."
+  },
   "footerCreatedBy": {
     "message": "Créé par <strong>Miroum</strong>"
   },

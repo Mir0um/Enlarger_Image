@@ -28,6 +28,21 @@
   },
   "labelZoomFactor": {
     "message": "Zoom factor"
+  },
+  "descEnableExtension": {
+    "message": "Turn the image magnifier on or off."
+  },
+  "descZoomOptions": {
+    "message": "Choose how enlarged images are displayed."
+  },
+  "descRadioNatural": {
+    "message": "Show the enlarged image next to the original."
+  },
+  "descRadioPage": {
+    "message": "Overlay the enlarged image over the page."
+  },
+  "descZoomFactor": {
+    "message": "Set the magnification level."
   },  
   "footerCreatedBy": {
     "message": "Created by <strong>Miroum</strong>"

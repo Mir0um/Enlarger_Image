@@ -14,27 +14,38 @@
 
         <div class="main-options">
             <div class="option">
-                <label for="toggle-extension" class="toggle-label">__MSG_labelEnableExtension__</label>
-                <label class="switch">
-                    <input type="checkbox" id="toggle-extension">
-                    <span class="slider"></span>
-                </label>
+                <div class="option-content">
+                    <label for="toggle-extension" class="toggle-label">__MSG_labelEnableExtension__</label>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-extension">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p class="option-description">__MSG_descEnableExtension__</p>
             </div>
             <hr>
             <div id="zoom-options" class="options-group">
                 <h2>__MSG_sectionZoomTitle__</h2>
+                <p class="group-description">__MSG_descZoomOptions__</p>
+
                 <div class="radio-option">
-                    <input type="radio" id="zoom-natural" name="zoomMode" value="natural">
-                    <label for="zoom-natural">__MSG_radioNaturalLabel__</label>
+                    <p class="option-description">__MSG_descRadioNatural__</p>
+                    <div class="option-content">
+                        <input type="radio" id="zoom-natural" name="zoomMode" value="natural">
+                        <label for="zoom-natural">__MSG_radioNaturalLabel__</label>
+                    </div>
+                    <div class="option-content">
+                        <label for="zoom-factor">__MSG_labelZoomFactor__</label>
+                        <input type="number" id="zoom-factor" min="1" step="0.1" value="2">
+                    </div>
                 </div>
-                <div class="option">
-                    <label for="zoom-factor">__MSG_labelZoomFactor__</label>
-                    <input type="number" id="zoom-factor" min="1" step="0.1" value="2">
-                </div>
-                <hr class="footer-separator">
+
                 <div class="radio-option">
-                    <input type="radio" id="zoom-page" name="zoomMode" value="page">
-                    <label for="zoom-page">__MSG_radioPageLabel__</label>
+                    <p class="option-description">__MSG_descRadioPage__</p>
+                    <div class="option-content">
+                        <input type="radio" id="zoom-page" name="zoomMode" value="page">
+                        <label for="zoom-page">__MSG_radioPageLabel__</label>
+                    </div>
                 </div>
             </div>
         </div>
