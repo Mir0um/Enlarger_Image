@@ -28,7 +28,11 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 
 ## Installation
 
-L'extension n'étant pas encore sur le Chrome Web Store, vous pouvez l'installer manuellement en suivant ces étapes :
+## Installation
+
+Vous pouvez installer l'extension directement depuis le [Chrome Web Store](https://chromewebstore.google.com/detail/gkhghnhoflimlafecekklclepijjaemp).
+
+Pour une installation manuelle, suivez ces étapes :
 
 1.  **Téléchargez le projet** :
     *   Clonez ce dépôt : `git clone https://github.com/[VotreLien]/vision-aid-magnifier.git`
@@ -37,7 +41,6 @@ L'extension n'étant pas encore sur le Chrome Web Store, vous pouvez l'installer
 2.  **Ouvrez Google Chrome** et naviguez vers la page des extensions : `chrome://extensions`.
 
 3.  **Activez le Mode Développeur** : Cochez l'interrupteur en haut à droite de la page.
-    
 
 4.  **Chargez l'extension** :
     *   Cliquez sur le bouton **"Charger l'extension non empaquetée"**.
