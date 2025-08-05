@@ -4,7 +4,7 @@
     }
     window.hasImageMagnifier = true;
 
-    let settings = { extensionEnabled: true, zoomMode: 'natural' };
+    let settings = { extensionEnabled: true, zoomMode: 'natural', zoomFactor: 2 };
     
     let zoomOverlay, zoomOverlayImage, zoomOverlayVideo;
     let zoomViewer, zoomViewerImage, zoomViewerVideo;
@@ -61,10 +61,14 @@
     }
 
     function loadSettings() {
-        chrome.storage.local.get(['extensionEnabled', 'zoomMode'], (result) => {
-            settings.extensionEnabled = result.extensionEnabled ?? true;
-            settings.zoomMode = result.zoomMode ?? 'natural';
-            updateEventListeners();
+        return new Promise(resolve => {
+            chrome.storage.local.get(['extensionEnabled', 'zoomMode', 'zoomFactor'], (result) => {
+                settings.extensionEnabled = result.extensionEnabled ?? true;
+                settings.zoomMode = result.zoomMode ?? 'natural';
+                settings.zoomFactor = parseFloat(result.zoomFactor) || 2;
+                updateEventListeners();
+                resolve();
+            });
         });
     }
 
@@ -76,7 +80,14 @@
         }
     }
 
+    function handleKeyDown(event) {
+        if (event.key === 'Escape') {
+            hideAllZoom();
+        }
+    }  
+
     function hideAllZoom() {
+        document.removeEventListener('keydown', handleKeyDown);
         if (zoomOverlay) {
             zoomOverlay.style.display = 'none';
         }
@@ -115,6 +126,7 @@
         }
 
         document.removeEventListener('mousemove', handleMouseMove);
+        document.addEventListener('keydown', handleKeyDown);
         if (rafId !== null) {
             cancelAnimationFrame(rafId);
             rafId = null;
@@ -207,7 +219,7 @@
                 zoomOverlayVideo.style.display = 'none';
             }
             zoomOverlay.style.display = 'flex';
-        } else { // Mode "natural" (doublé)
+        } else { // Mode "natural" (scaled)
             if (type === 'video') {
                 if (zoomViewerImage instanceof HTMLElement) {
                     zoomViewerImage.removeAttribute('src');
@@ -220,8 +232,8 @@
                 zoomViewerVideo.onloadedmetadata = () => {
                     zoomViewerVideo.onerror = null;
                     const dimensions = {
-                        width: zoomViewerVideo.videoWidth * 2,
-                        height: zoomViewerVideo.videoHeight * 2
+                        width: zoomViewerVideo.videoWidth * settings.zoomFactor,
+                        height: zoomViewerVideo.videoHeight * settings.zoomFactor
                     };
                     adjustViewerSize(zoomViewerVideo, dimensions, event);
                     zoomViewerVideo.onloadedmetadata = null;
@@ -241,8 +253,8 @@
                 zoomViewerImage.onload = () => {
                     zoomViewerImage.onerror = null;
                     const dimensions = {
-                        width: zoomViewerImage.naturalWidth * 2,
-                        height: zoomViewerImage.naturalHeight * 2
+                        width: zoomViewerImage.naturalWidth * settings.zoomFactor,
+                        height: zoomViewerImage.naturalHeight * settings.zoomFactor
                     };
                     adjustViewerSize(zoomViewerImage, dimensions, event);
                     zoomViewerImage.onload = null;
@@ -308,10 +320,28 @@
 
     chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         if (request.type === 'SETTINGS_UPDATED') {
-            loadSettings();
+            loadSettings().then(() => {
+                if (zoomViewer && zoomViewer.style.display === 'block' && settings.zoomMode === 'natural') {
+                    const activeElement = zoomViewerVideo.style.display === 'block' ? zoomViewerVideo : zoomViewerImage;
+                    if (activeElement) {
+                        const dimensions = activeElement instanceof HTMLVideoElement
+                            ? {
+                                width: activeElement.videoWidth * settings.zoomFactor,
+                                height: activeElement.videoHeight * settings.zoomFactor
+                              }
+                            : {
+                                width: activeElement.naturalWidth * settings.zoomFactor,
+                                height: activeElement.naturalHeight * settings.zoomFactor
+                              };
+                        adjustViewerSize(activeElement, dimensions, { clientX: lastMouseX, clientY: lastMouseY });
+                        positionViewer(lastMouseX, lastMouseY);
+                    }
+                }
+            });
         }
     });
 
     createZoomElements();
     loadSettings();
+    document.addEventListener('keydown', handleKeyDown);
 })();

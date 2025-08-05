@@ -2,7 +2,8 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.storage.local.set({
         extensionEnabled: true,
-        zoomMode: 'natural' // 'natural' ou 'page'
+        zoomMode: 'natural', // 'natural' ou 'page'
+        zoomFactor: 2
     });
     console.log("Image Magnifier: Default settings initialized.");
 });

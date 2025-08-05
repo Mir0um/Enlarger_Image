@@ -16,11 +16,13 @@ A simple, lightweight and efficient Chrome extension designed for accessibility.
 
 * **Hover magnification**: No need to click; simply hover over an element to activate it.
 * **Smart detection**: Works on `<img>` and `<video>` tags as well as `<a>` links pointing to image or video files (common formats like `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
-* **Automatic video playback**: Detected videos start automatically in the preview window.
+* **Automatic video playback**: Detected videos start automatically in the preview window, muted and looping for seamless viewing.
 * **Two display modes**:
     1. **Double size (beside)**: Shows the image at 200% of its original size in a window next to the cursor. The window positions itself intelligently to stay on screen.
     2. **Full width (overlay)**: Displays the image large, overlaying the page content and taking up the width of the window.
 * **Full control**: A simple, intuitive popup lets you toggle the extension on or off and switch modes on the fly.
+* **Configurable zoom factor**: Adjust the magnification level directly from the popup.
+*   **Quick Close with Escape** : Just press the `Escape` key to instantly close any active preview, without needing to move your mouse.
 * **Lightweight and performant**: Designed to have minimal impact on browsing performance by activating scripts only when necessary.
 
 ## Installation
@@ -44,6 +46,7 @@ The extension is not yet on the Chrome Web Store. You can install it manually:
 3. Choose your preferred **"magnification mode"**:
     * `Double size (beside)`: Ideal for quickly inspecting images without losing page context.
     * `Full width (overlay)`: Perfect for viewing an image in greater detail.
+4. Adjust the **zoom factor** to control the magnification level.
 
 Changes are saved and applied instantly.
 

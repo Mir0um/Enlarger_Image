@@ -26,6 +26,9 @@
   "radioPageLabel": {
     "message": "Pleine largeur (superposé)"
   },
+  "labelZoomFactor": {
+    "message": "Facteur de zoom"
+  },
   "footerCreatedBy": {
     "message": "Créé par <strong>Miroum</strong>"
   },

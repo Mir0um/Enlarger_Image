@@ -8,16 +8,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleSwitch = document.getElementById('toggle-extension');
     const zoomOptionsDiv = document.getElementById('zoom-options');
     const zoomModeRadios = document.querySelectorAll('input[name="zoomMode"]');
+    const zoomFactorInput = document.getElementById('zoom-factor');
     const githubLink = document.getElementById('github-link');
     const imagusLink = document.getElementById('imagus-link'); // NOUVEAU
 
     // --- LOGIQUE DES OPTIONS (INCHANGÉE) ---
-    chrome.storage.local.get(['extensionEnabled', 'zoomMode'], (result) => {
+    chrome.storage.local.get(['extensionEnabled', 'zoomMode', 'zoomFactor'], (result) => {
         toggleSwitch.checked = result.extensionEnabled ?? true;
         updateOptionsVisibility(toggleSwitch.checked);
 
         const mode = result.zoomMode ?? 'natural';
         document.querySelector(`input[value="${mode}"]`).checked = true;
+
+        zoomFactorInput.value = result.zoomFactor ?? 2;
     });
 
     toggleSwitch.addEventListener('change', (event) => {
@@ -33,6 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 chrome.storage.local.set({ zoomMode: event.target.value });
                 notifyContentScriptOfUpdate();
             }
+        });
+    });
+
+    zoomFactorInput.addEventListener('change', (event) => {
+        const factor = parseFloat(event.target.value);
+        chrome.storage.local.set({ zoomFactor: isNaN(factor) ? 2 : factor }, () => {
+            notifyContentScriptOfUpdate();
         });
     });
 

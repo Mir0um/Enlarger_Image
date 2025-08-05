@@ -17,11 +17,13 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 
 *   **Agrandissement au survol** : Pas besoin de cliquer, il suffit de passer la souris sur un élément pour l'activer.
 *   **Détection Intelligente** : Fonctionne sur les balises `<img>` et `<video>` ainsi que sur les liens `<a>` pointant vers des fichiers image ou vidéo (formats courants comme `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
-*   **Lecture automatique des vidéos** : Lorsqu'une vidéo est détectée, elle se lance automatiquement dans la fenêtre d'aperçu.
+*   **Lecture automatique des vidéos** : Lorsqu'une vidéo est détectée, elle se lance automatiquement, sans son et en boucle dans la fenêtre d'aperçu.
 *   **Deux Modes d'Affichage** :
     1.  **Taille Doublée (côté)** : Affiche l'image à 200% de sa taille originale dans une fenêtre à côté du curseur. La fenêtre se positionne intelligemment à droite ou à gauche pour ne jamais sortir de l'écran.
     2.  **Pleine Largeur (superposé)** : Affiche l'image en grand format, superposée au contenu de la page et occupant la largeur de la fenêtre.
 *   **Contrôle Total** : Un popup simple et intuitif vous permet d'activer/désactiver l'extension et de changer de mode à la volée.
+*   **Facteur de zoom configurable** : Ajustez le niveau d'agrandissement directement depuis le popup.
+*   **Fermeture rapide avec Échap** : Appuyez simplement sur la touche `Échap` pour fermer instantanément toute prévisualisation en cours, sans avoir besoin de déplacer la souris.
 *   **Léger et Performant** : Conçu pour avoir un impact minimal sur les performances de navigation, en n'activant les scripts que lorsque c'est nécessaire.
 
 ## Installation
@@ -50,6 +52,7 @@ L'extension n'étant pas encore sur le Chrome Web Store, vous pouvez l'installer
 3.  Choisissez votre **"Mode d'agrandissement"** préféré :
     *   `Taille doublée (côté)` : Idéal pour inspecter rapidement des images sans perdre le contexte de la page.
     *   `Pleine largeur (superposé)` : Parfait pour voir une image dans les moindres détails.
+4.  Réglez le **facteur de zoom** selon vos besoins.
 
 Les modifications sont sauvegardées et appliquées instantanément.
 

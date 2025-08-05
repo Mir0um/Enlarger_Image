@@ -26,6 +26,9 @@
   "radioPageLabel": {
     "message": "Full width (overlay)"
   },
+  "labelZoomFactor": {
+    "message": "Zoom factor"
+  },  
   "footerCreatedBy": {
     "message": "Created by <strong>Miroum</strong>"
   },
