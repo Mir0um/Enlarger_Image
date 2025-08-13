@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Amplificador de Imagen"
+  },
+  "extensionDescription": {
+    "message": "Amplía las imágenes al pasar el cursor para mejor accesibilidad. Perfecto para usuarios con discapacidad visual."
+  },
+  "actionPopupTitle": {
+    "message": "Opciones del Amplificador de Imagen"
+  },
+  "headingMain": {
+    "message": "Amplificador de Imagen"
+  },
+  "descriptionMain": {
+    "message": "Pasa el cursor sobre una imagen o enlace a una imagen para ampliarla instantáneamente."
+  },
+  "labelEnableExtension": {
+    "message": "Activar extensión"
+  },
+  "sectionZoomTitle": {
+    "message": "Modo de ampliación"
+  },
+  "radioNaturalLabel": {
+    "message": "Tamaño doble (lateral)"
+  },
+  "radioPageLabel": {
+    "message": "Ancho completo (superpuesto)"
+  },
+  "labelZoomFactor": {
+    "message": "Factor de zoom"
+  },
+  "descEnableExtension": {
+    "message": "Activa o desactiva el amplificador de imagen."
+  },
+  "descZoomOptions": {
+    "message": "Elige cómo se muestran las imágenes ampliadas."
+  },
+  "descRadioNatural": {
+    "message": "Muestra la imagen ampliada junto a la original."
+  },
+  "descRadioPage": {
+    "message": "Superpone la imagen ampliada sobre la página."
+  },
+  "descZoomFactor": {
+    "message": "Establece el nivel de ampliación."
+  },
+  "footerCreatedBy": {
+    "message": "Creado por <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Ver el proyecto en GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Inspirado por"
+  }
+}

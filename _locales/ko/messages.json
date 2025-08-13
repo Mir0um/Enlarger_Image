@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "이미지 확대기"
+  },
+  "extensionDescription": {
+    "message": "호버 시 이미지를 확대하여 접근성을 향상시킵니다. 시각 장애가 있는 사용자에게 완벽합니다."
+  },
+  "actionPopupTitle": {
+    "message": "이미지 확대기 옵션"
+  },
+  "headingMain": {
+    "message": "이미지 확대기"
+  },
+  "descriptionMain": {
+    "message": "이미지나 이미지 링크 위에 마우스를 올리면 즉시 확대됩니다."
+  },
+  "labelEnableExtension": {
+    "message": "확장 프로그램 활성화"
+  },
+  "sectionZoomTitle": {
+    "message": "확대 모드"
+  },
+  "radioNaturalLabel": {
+    "message": "두 배 크기 (옆면)"
+  },
+  "radioPageLabel": {
+    "message": "전체 너비 (오버레이)"
+  },
+  "labelZoomFactor": {
+    "message": "줌 배율"
+  },
+  "descEnableExtension": {
+    "message": "이미지 확대기를 켜거나 끕니다."
+  },
+  "descZoomOptions": {
+    "message": "확대된 이미지가 표시되는 방법을 선택하세요."
+  },
+  "descRadioNatural": {
+    "message": "확대된 이미지를 원본 옆에 표시합니다."
+  },
+  "descRadioPage": {
+    "message": "확대된 이미지를 페이지 위에 오버레이합니다."
+  },
+  "descZoomFactor": {
+    "message": "확대 수준을 설정합니다."
+  },
+  "footerCreatedBy": {
+    "message": "<strong>Sartoris Jean-Paul (Miroum)</strong>이 제작"
+  },
+  "footerGithubLink": {
+    "message": "GitHub에서 프로젝트 보기"
+  },
+  "footerInspiredBy": {
+    "message": "영감을 받은 곳"
+  }
+}
