@@ -3,3 +3,14 @@ Thumbs.db
 
 **/Thumbs.db
 Enlarger_Image.zip
+
+img/
+img/*
+
+.vscode/
+.vscode/*
+
+.idea/
+.idea/*
+
+.DS_Store

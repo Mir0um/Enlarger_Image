@@ -45,8 +45,6 @@ L'interface s'adapte automatiquement à la langue de votre navigateur.
 
 ## Installation
 
-## Installation
-
 Vous pouvez installer l'extension directement depuis le [Chrome Web Store](https://chromewebstore.google.com/detail/gkhghnhoflimlafecekklclepijjaemp).
 
 Pour une installation manuelle, suivez ces étapes :

@@ -33,10 +33,6 @@
       "resources": ["core/zoom.css"],
       "matches": ["<all_urls>"]
     }
-  ],
-  
-  "content_security_policy": {
-  "extension_pages": "script-src 'self' 'unsafe-eval'; object-src 'self'"
-  }
+  ]
 }
 
