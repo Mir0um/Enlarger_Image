@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "ตัวขยายภาพ"
+  },
+  "extensionDescription": {
+    "message": "ขยายภาพเมื่อวางเมาส์เพื่อการเข้าถึงที่ดีขึ้น เหมาะสำหรับผู้ใช้ที่มีความบกพร่องทางสายตา"
+  },
+  "actionPopupTitle": {
+    "message": "ตัวเลือกตัวขยายภาพ"
+  },
+  "headingMain": {
+    "message": "ตัวขยายภาพ"
+  },
+  "descriptionMain": {
+    "message": "วางเมาส์เหนือภาพหรือลิงก์ภาพเพื่อขยายทันที"
+  },
+  "labelEnableExtension": {
+    "message": "เปิดใช้งานส่วนขยาย"
+  },
+  "sectionZoomTitle": {
+    "message": "โหมดการขยาย"
+  },
+  "radioNaturalLabel": {
+    "message": "ขนาดสองเท่า (ข้างๆ)"
+  },
+  "radioPageLabel": {
+    "message": "ความกว้างเต็ม (ทับซ้อน)"
+  },
+  "labelZoomFactor": {
+    "message": "อัตราการซูม"
+  },
+  "descEnableExtension": {
+    "message": "เปิดหรือปิดตัวขยายภาพ"
+  },
+  "descZoomOptions": {
+    "message": "เลือกวิธีการแสดงภาพที่ขยาย"
+  },
+  "descRadioNatural": {
+    "message": "แสดงภาพที่ขยายข้างๆ ภาพต้นฉบับ"
+  },
+  "descRadioPage": {
+    "message": "วางภาพที่ขยายทับบนหน้าเว็บ"
+  },
+  "descZoomFactor": {
+    "message": "ตั้งค่าระดับการขยาย"
+  },  
+  "footerCreatedBy": {
+    "message": "สร้างโดย <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "ดูโปรเจกต์บน GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "ได้แรงบันดาลใจจาก"
+  }
+}

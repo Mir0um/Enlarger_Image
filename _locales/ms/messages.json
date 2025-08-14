@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Pembesar Imej"
+  },
+  "extensionDescription": {
+    "message": "Besarkan imej semasa hover untuk kebolehcapaian yang lebih baik. Sesuai untuk pengguna yang mengalami masalah penglihatan."
+  },
+  "actionPopupTitle": {
+    "message": "Pilihan Pembesar Imej"
+  },
+  "headingMain": {
+    "message": "Pembesar Imej"
+  },
+  "descriptionMain": {
+    "message": "Hover di atas imej atau pautan imej untuk membesarkannya dengan serta-merta."
+  },
+  "labelEnableExtension": {
+    "message": "Aktifkan sambungan"
+  },
+  "sectionZoomTitle": {
+    "message": "Mod pembesaran"
+  },
+  "radioNaturalLabel": {
+    "message": "Saiz berganda (sebelah)"
+  },
+  "radioPageLabel": {
+    "message": "Lebar penuh (lapisan)"
+  },
+  "labelZoomFactor": {
+    "message": "Faktor zum"
+  },
+  "descEnableExtension": {
+    "message": "Hidupkan atau matikan pembesar imej."
+  },
+  "descZoomOptions": {
+    "message": "Pilih cara untuk memaparkan imej yang dibesarkan."
+  },
+  "descRadioNatural": {
+    "message": "Tunjukkan imej yang dibesarkan di sebelah yang asal."
+  },
+  "descRadioPage": {
+    "message": "Lapikkan imej yang dibesarkan di atas halaman."
+  },
+  "descZoomFactor": {
+    "message": "Tetapkan tahap pembesaran."
+  },  
+  "footerCreatedBy": {
+    "message": "Dicipta oleh <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Lihat projek di GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Diilhamkan oleh"
+  }
+}

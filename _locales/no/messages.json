@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Bildeforstørrer"
+  },
+  "extensionDescription": {
+    "message": "Forstørr bilder ved hover for bedre tilgjengelighet. Perfekt for brukere med synshemming."
+  },
+  "actionPopupTitle": {
+    "message": "Bildeforstørrer Alternativer"
+  },
+  "headingMain": {
+    "message": "Bildeforstørrer"
+  },
+  "descriptionMain": {
+    "message": "Hold musen over et bilde eller lenke til et bilde for å forstørre det umiddelbart."
+  },
+  "labelEnableExtension": {
+    "message": "Aktiver utvidelse"
+  },
+  "sectionZoomTitle": {
+    "message": "Forstørrelsesmodus"
+  },
+  "radioNaturalLabel": {
+    "message": "Dobbel størrelse (ved siden av)"
+  },
+  "radioPageLabel": {
+    "message": "Full bredde (overlegg)"
+  },
+  "labelZoomFactor": {
+    "message": "Zoomfaktor"
+  },
+  "descEnableExtension": {
+    "message": "Slår bildeforstørreren på eller av."
+  },
+  "descZoomOptions": {
+    "message": "Velg hvordan forstørrede bilder vises."
+  },
+  "descRadioNatural": {
+    "message": "Vis det forstørrede bildet ved siden av originalen."
+  },
+  "descRadioPage": {
+    "message": "Legg det forstørrede bildet over siden."
+  },
+  "descZoomFactor": {
+    "message": "Angi forstørrelsesnivået."
+  },  
+  "footerCreatedBy": {
+    "message": "Opprettet av <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Se prosjektet på GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Inspirert av"
+  }
+}
