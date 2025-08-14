@@ -1,4 +1,4 @@
-# Image Magnifier
+# Hover Zoom
 
 ![Extension icon](icons/icon128.png)
 
@@ -10,7 +10,7 @@ A simple, lightweight and efficient Chrome extension designed for accessibility.
 
 ## Demo
 
-![Image Magnifier demonstration](demo.gif)
+![Hover Zoom demonstration](demo.gif)
 
 ## Main features
 
@@ -56,7 +56,7 @@ To install it manually:
 4. **Load the extension**:
     * Click the **"Load unpacked"** button.
     * A folder selection dialog opens. Navigate to the project folder (the one containing `manifest.json`) and select it.
-5. **That's it!** The Image Magnifier icon should appear in your Chrome toolbar.
+5. **That's it!** The Hover Zoom icon should appear in your Chrome toolbar.
 
 ## How to use
 

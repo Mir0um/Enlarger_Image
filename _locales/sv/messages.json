@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Bildförstorare"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Förstora bilder vid hovring för bättre tillgänglighet. Perfekt för användare med synnedsättning."
   },
   "actionPopupTitle": {
-    "message": "Bildförstorare Alternativ"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Bildförstorare"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Hovra över en bild eller länk till en bild för att förstora den omedelbart."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Ange förstorningsnivån."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Skapad av <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

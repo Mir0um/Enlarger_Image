@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "छवि विस्तारक"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "बेहतर पहुंच के लिए होवर पर छवियों को बड़ा करें। दृष्टिबाधित उपयोगकर्ताओं के लिए आदर्श।"
   },
   "actionPopupTitle": {
-    "message": "छवि विस्तारक विकल्प"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "छवि विस्तारक"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "छवि को तुरंत बड़ा करने के लिए छवि या छवि के लिंक पर होवर करें।"
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "आवर्धन स्तर सेट करें।"
-  },  
+  },
   "footerCreatedBy": {
     "message": "<strong>सार्टोरिस जीन-पॉल (मिरोम)</strong> द्वारा निर्मित"
   },

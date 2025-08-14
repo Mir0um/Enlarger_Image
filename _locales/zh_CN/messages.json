@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "图像放大器"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "鼠标悬停时放大图像以提高可访问性。非常适合视力障碍用户。"
   },
   "actionPopupTitle": {
-    "message": "图像放大器选项"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "图像放大器"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "将鼠标悬停在图像或图像链接上即可立即放大。"

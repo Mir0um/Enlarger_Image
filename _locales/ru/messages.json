@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Увеличитель Изображений"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Увеличивает изображения при наведении для лучшей доступности. Идеально для пользователей с нарушениями зрения."
   },
   "actionPopupTitle": {
-    "message": "Настройки Увеличителя Изображений"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Увеличитель Изображений"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Наведите курсор на изображение или ссылку на изображение, чтобы мгновенно увеличить его."

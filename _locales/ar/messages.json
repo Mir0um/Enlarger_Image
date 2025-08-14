@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "مكبر الصور"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "يكبر الصور عند التمرير لتحسين إمكانية الوصول. مثالي للمستخدمين ذوي الإعاقة البصرية."
   },
   "actionPopupTitle": {
-    "message": "خيارات مكبر الصور"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "مكبر الصور"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "مرر فوق صورة أو رابط إلى صورة لتكبيرها فوراً."
