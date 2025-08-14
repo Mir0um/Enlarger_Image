@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "ตัวขยายภาพ"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "ขยายภาพเมื่อวางเมาส์เพื่อการเข้าถึงที่ดีขึ้น เหมาะสำหรับผู้ใช้ที่มีความบกพร่องทางสายตา"
   },
   "actionPopupTitle": {
-    "message": "ตัวเลือกตัวขยายภาพ"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "ตัวขยายภาพ"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "วางเมาส์เหนือภาพหรือลิงก์ภาพเพื่อขยายทันที"
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "ตั้งค่าระดับการขยาย"
-  },  
+  },
   "footerCreatedBy": {
     "message": "สร้างโดย <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

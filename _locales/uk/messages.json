@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Збільшувач Зображень"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Збільшує зображення при наведенні для кращої доступності. Ідеально для користувачів з вадами зору."
   },
   "actionPopupTitle": {
-    "message": "Параметри Збільшувача Зображень"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Збільшувач Зображень"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Наведіть на зображення або посилання на зображення, щоб миттєво його збільшити."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Встановити рівень збільшення."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Створено <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

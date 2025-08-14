@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Ampliador de Imagem"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Amplia imagens ao passar o mouse para melhor acessibilidade. Perfeito para usuários com deficiência visual."
   },
   "actionPopupTitle": {
-    "message": "Opções do Ampliador de Imagem"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Ampliador de Imagem"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Passe o mouse sobre uma imagem ou link para uma imagem para ampliá-la instantaneamente."

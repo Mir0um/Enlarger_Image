@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Image Agrandisseur"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Agrandit les images au survol pour une meilleure accessibilité. Parfait pour les utilisateurs ayant une déficience visuelle."
   },
   "actionPopupTitle": {
-    "message": "Options Image Agrandisseur"
+    "message": "Options Hover Zoom"
   },
   "headingMain": {
-    "message": "Image Agrandisseur"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Survolez une image ou un lien vers une image pour l'agrandir instantanément."

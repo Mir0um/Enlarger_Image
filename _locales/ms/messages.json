@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Pembesar Imej"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Besarkan imej semasa hover untuk kebolehcapaian yang lebih baik. Sesuai untuk pengguna yang mengalami masalah penglihatan."
   },
   "actionPopupTitle": {
-    "message": "Pilihan Pembesar Imej"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Pembesar Imej"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Hover di atas imej atau pautan imej untuk membesarkannya dengan serta-merta."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Tetapkan tahap pembesaran."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Dicipta oleh <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },
