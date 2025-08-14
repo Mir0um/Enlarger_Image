@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Enlarger Image"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Enlarge images on hover for better accessibility. Perfect for visually impaired users."
   },
   "actionPopupTitle": {
-    "message": "Enlarger Image Options"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Enlarger Image"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Hover over an image or link to an image to enlarge it instantly."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Set the magnification level."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Created by <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

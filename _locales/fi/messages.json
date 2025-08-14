@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Kuvansuurennin"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Suurentaa kuvia hover-toiminnolla paremman saavutettavuuden vuoksi. Täydellinen näkövammaisille käyttäjille."
   },
   "actionPopupTitle": {
-    "message": "Kuvansuurennin Asetukset"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Kuvansuurennin"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Vie hiiri kuvan tai kuvalinkin päälle suurentaaksesi sen välittömästi."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Aseta suurennustaso."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Luonut <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

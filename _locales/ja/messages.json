@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "画像拡大ツール"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "ホバー時に画像を拡大してアクセシビリティを向上させます。視覚障害のあるユーザーに最適です。"
   },
   "actionPopupTitle": {
-    "message": "画像拡大ツール オプション"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "画像拡大ツール"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "画像または画像へのリンクにカーソルを合わせると、即座に拡大されます。"

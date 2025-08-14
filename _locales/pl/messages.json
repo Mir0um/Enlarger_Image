@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Powiększacz Obrazów"
+    "message": "Hover Zoom"
   },
   "extensionDescription": {
     "message": "Powiększa obrazy po najechaniu myszą dla lepszej dostępności. Idealne dla użytkowników z wadami wzroku."
   },
   "actionPopupTitle": {
-    "message": "Opcje Powiększacza Obrazów"
+    "message": "Hover Zoom Options"
   },
   "headingMain": {
-    "message": "Powiększacz Obrazów"
+    "message": "Hover Zoom"
   },
   "descriptionMain": {
     "message": "Najedź na obraz lub link do obrazu, aby natychmiastowo go powiększyć."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Ustaw poziom powiększenia."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Utworzone przez <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

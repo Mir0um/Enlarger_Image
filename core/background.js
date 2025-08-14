@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(() => {
         zoomMode: 'natural', // 'natural' ou 'page'
         zoomFactor: 2
     });
-    console.log("Image Magnifier: Default settings initialized.");
+    console.log("Hover Zoom: Default settings initialized.");
 });
 
 // Écoute les mises à jour des onglets pour injecter le script si nécessaire
