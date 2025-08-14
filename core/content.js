@@ -1,8 +1,8 @@
 (() => {
-    if (window.hasImageMagnifier) {
+    if (window.hasHoverZoomPlus) {
         return;
     }
-    window.hasImageMagnifier = true;
+    window.hasHoverZoomPlus = true;
 
     let settings = { extensionEnabled: true, zoomMode: 'natural', zoomFactor: 2 };
     

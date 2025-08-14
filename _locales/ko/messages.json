@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "이미지 확대기"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "호버 시 이미지를 확대하여 접근성을 향상시킵니다. 시각 장애가 있는 사용자에게 완벽합니다."
   },
   "actionPopupTitle": {
-    "message": "이미지 확대기 옵션"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "이미지 확대기"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "이미지나 이미지 링크 위에 마우스를 올리면 즉시 확대됩니다."

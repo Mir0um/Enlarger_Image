@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Resim Büyütücü"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Daha iyi erişilebilirlik için üzerine gelindiğinde resimleri büyütür. Görme engelli kullanıcılar için mükemmel."
   },
   "actionPopupTitle": {
-    "message": "Resim Büyütücü Seçenekleri"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Resim Büyütücü"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Anında büyütmek için bir resmin üzerine veya resim bağlantısına gelin."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Büyütme seviyesini ayarlayın."
-  },  
+  },
   "footerCreatedBy": {
     "message": "<strong>Sartoris Jean-Paul (Miroum)</strong> tarafından oluşturuldu"
   },

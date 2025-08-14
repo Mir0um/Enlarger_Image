@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Enlarger Image"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Enlarge images on hover for better accessibility. Perfect for visually impaired users."
   },
   "actionPopupTitle": {
-    "message": "Enlarger Image Options"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Enlarger Image"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Hover over an image or link to an image to enlarge it instantly."

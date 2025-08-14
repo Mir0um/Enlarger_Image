@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Ingranditore di Immagini"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Ingrandisce le immagini al passaggio del mouse per una migliore accessibilità. Perfetto per utenti con problemi di vista."
   },
   "actionPopupTitle": {
-    "message": "Opzioni Ingranditore di Immagini"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Ingranditore di Immagini"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Passa il mouse sopra un'immagine o un link a un'immagine per ingrandirla istantaneamente."

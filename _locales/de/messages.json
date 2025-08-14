@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Bildvergrößerer"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Vergrößert Bilder beim Überfahren für bessere Zugänglichkeit. Perfekt für sehbehinderte Benutzer."
   },
   "actionPopupTitle": {
-    "message": "Bildvergrößerer Optionen"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Bildvergrößerer"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Fahren Sie über ein Bild oder einen Link zu einem Bild, um es sofort zu vergrößern."

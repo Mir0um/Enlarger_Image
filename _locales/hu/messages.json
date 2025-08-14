@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Képnagyító"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Nagyítja a képeket rámutatáskor a jobb hozzáférhetőség érdekében. Tökéletes látássérült felhasználók számára."
   },
   "actionPopupTitle": {
-    "message": "Képnagyító Beállítások"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Képnagyító"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Vigye az egeret egy kép vagy képlink fölé az azonnali nagyításhoz."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "A nagyítási szint beállítása."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Készítette: <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },

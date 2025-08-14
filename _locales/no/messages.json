@@ -1,15 +1,15 @@
 {
   "extensionName": {
-    "message": "Bildeforstørrer"
+    "message": "HoverZoom Plus"
   },
   "extensionDescription": {
     "message": "Forstørr bilder ved hover for bedre tilgjengelighet. Perfekt for brukere med synshemming."
   },
   "actionPopupTitle": {
-    "message": "Bildeforstørrer Alternativer"
+    "message": "HoverZoom Plus Options"
   },
   "headingMain": {
-    "message": "Bildeforstørrer"
+    "message": "HoverZoom Plus"
   },
   "descriptionMain": {
     "message": "Hold musen over et bilde eller lenke til et bilde for å forstørre det umiddelbart."
@@ -43,7 +43,7 @@
   },
   "descZoomFactor": {
     "message": "Angi forstørrelsesnivået."
-  },  
+  },
   "footerCreatedBy": {
     "message": "Opprettet av <strong>Sartoris Jean-Paul (Miroum)</strong>"
   },
