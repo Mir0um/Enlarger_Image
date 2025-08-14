@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Bildförstorare"
+  },
+  "extensionDescription": {
+    "message": "Förstora bilder vid hovring för bättre tillgänglighet. Perfekt för användare med synnedsättning."
+  },
+  "actionPopupTitle": {
+    "message": "Bildförstorare Alternativ"
+  },
+  "headingMain": {
+    "message": "Bildförstorare"
+  },
+  "descriptionMain": {
+    "message": "Hovra över en bild eller länk till en bild för att förstora den omedelbart."
+  },
+  "labelEnableExtension": {
+    "message": "Aktivera tillägg"
+  },
+  "sectionZoomTitle": {
+    "message": "Förstoringsläge"
+  },
+  "radioNaturalLabel": {
+    "message": "Dubbel storlek (vid sidan)"
+  },
+  "radioPageLabel": {
+    "message": "Full bredd (överlägg)"
+  },
+  "labelZoomFactor": {
+    "message": "Zoomfaktor"
+  },
+  "descEnableExtension": {
+    "message": "Slår på eller av bildförstoraren."
+  },
+  "descZoomOptions": {
+    "message": "Välj hur förstorade bilder visas."
+  },
+  "descRadioNatural": {
+    "message": "Visa den förstorade bilden bredvid originalet."
+  },
+  "descRadioPage": {
+    "message": "Lägg den förstorade bilden över sidan."
+  },
+  "descZoomFactor": {
+    "message": "Ange förstorningsnivån."
+  },  
+  "footerCreatedBy": {
+    "message": "Skapad av <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Se projektet på GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Inspirerad av"
+  }
+}

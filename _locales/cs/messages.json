@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Zvětšovač Obrázků"
+  },
+  "extensionDescription": {
+    "message": "Zvětšuje obrázky při najetí myší pro lepší přístupnost. Ideální pro uživatele se zrakovým postižením."
+  },
+  "actionPopupTitle": {
+    "message": "Možnosti Zvětšovače Obrázků"
+  },
+  "headingMain": {
+    "message": "Zvětšovač Obrázků"
+  },
+  "descriptionMain": {
+    "message": "Najeďte na obrázek nebo odkaz na obrázek a okamžitě jej zvětšete."
+  },
+  "labelEnableExtension": {
+    "message": "Povolit rozšíření"
+  },
+  "sectionZoomTitle": {
+    "message": "Režim zvětšování"
+  },
+  "radioNaturalLabel": {
+    "message": "Dvojnásobná velikost (vedle)"
+  },
+  "radioPageLabel": {
+    "message": "Plná šířka (překrytí)"
+  },
+  "labelZoomFactor": {
+    "message": "Faktor zvětšení"
+  },
+  "descEnableExtension": {
+    "message": "Zapne nebo vypne zvětšovač obrázků."
+  },
+  "descZoomOptions": {
+    "message": "Vyberte způsob zobrazení zvětšených obrázků."
+  },
+  "descRadioNatural": {
+    "message": "Zobrazit zvětšený obrázek vedle originálu."
+  },
+  "descRadioPage": {
+    "message": "Překrýt zvětšený obrázek přes stránku."
+  },
+  "descZoomFactor": {
+    "message": "Nastavit úroveň zvětšení."
+  },  
+  "footerCreatedBy": {
+    "message": "Vytvořil <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Zobrazit projekt na GitHubu"
+  },
+  "footerInspiredBy": {
+    "message": "Inspirováno"
+  }
+}

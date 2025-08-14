@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "مكبر الصور"
+  },
+  "extensionDescription": {
+    "message": "يكبر الصور عند التمرير لتحسين إمكانية الوصول. مثالي للمستخدمين ذوي الإعاقة البصرية."
+  },
+  "actionPopupTitle": {
+    "message": "خيارات مكبر الصور"
+  },
+  "headingMain": {
+    "message": "مكبر الصور"
+  },
+  "descriptionMain": {
+    "message": "مرر فوق صورة أو رابط إلى صورة لتكبيرها فوراً."
+  },
+  "labelEnableExtension": {
+    "message": "تفعيل الإضافة"
+  },
+  "sectionZoomTitle": {
+    "message": "نمط التكبير"
+  },
+  "radioNaturalLabel": {
+    "message": "حجم مضاعف (جانبي)"
+  },
+  "radioPageLabel": {
+    "message": "عرض كامل (طبقة علوية)"
+  },
+  "labelZoomFactor": {
+    "message": "عامل التكبير"
+  },
+  "descEnableExtension": {
+    "message": "يشغل أو يوقف مكبر الصور."
+  },
+  "descZoomOptions": {
+    "message": "اختر كيفية عرض الصور المكبرة."
+  },
+  "descRadioNatural": {
+    "message": "يعرض الصورة المكبرة بجانب الأصلية."
+  },
+  "descRadioPage": {
+    "message": "يضع الصورة المكبرة فوق الصفحة."
+  },
+  "descZoomFactor": {
+    "message": "يحدد مستوى التكبير."
+  },
+  "footerCreatedBy": {
+    "message": "تم إنشاؤه بواسطة <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "عرض المشروع على GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "مستوحى من"
+  }
+}

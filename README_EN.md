@@ -15,15 +15,32 @@ A simple, lightweight and efficient Chrome extension designed for accessibility.
 ## Main features
 
 * **Hover magnification**: No need to click; simply hover over an element to activate it.
-* **Smart detection**: Works on `<img>` and `<video>` tags as well as `<a>` links pointing to image or video files (common formats like `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
+* **Smart detection**: Works on `<img>` and `<video>` tags as well as `<a>` links pointing to image or video files.
+    * **Supported image formats**: `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`, `.svg`, `.bmp`, `.apng`, `.ico`, `.tif`, `.tiff`
+    * **Supported video formats**: `.mp4`, `.webm`, `.ogg`, `.ogv`, `.mov`, `.mkv`, `.flv`
 * **Automatic video playback**: Detected videos start automatically in the preview window, muted and looping for seamless viewing.
+* **Relative URL handling**: Smart detection of image links that works with both relative and absolute URLs.
 * **Two display modes**:
     1. **Double size (beside)**: Shows the image at 200% of its original size in a window next to the cursor. The window positions itself intelligently to stay on screen.
     2. **Full width (overlay)**: Displays the image large, overlaying the page content and taking up the width of the window.
 * **Full control**: A simple, intuitive popup lets you toggle the extension on or off and switch modes on the fly.
-* **Configurable zoom factor**: Adjust the magnification level directly from the popup.
+* **Configurable zoom factor**: Adjust the magnification level directly from the popup (0.1 decimal precision).
+* **Smart positioning**: The preview window automatically positions itself to stay visible on screen.
+* **Smooth animations**: Seamless transitions with animation effects when displaying images.
 *   **Quick Close with Escape** : Just press the `Escape` key to instantly close any active preview, without needing to move your mouse.
 * **Lightweight and performant**: Designed to have minimal impact on browsing performance by activating scripts only when necessary.
+
+## Supported Languages
+
+The extension is available in **27 languages**:
+
+🌍 **European**: French, English, German, Spanish, Italian, Dutch, Polish, Portuguese, Russian, Swedish, Norwegian, Finnish, Danish, Czech, Hungarian, Ukrainian, Turkish
+
+🌏 **Asian**: Chinese Simplified, Japanese, Korean, Hindi, Thai, Vietnamese, Indonesian, Malay
+
+🌍 **Others**: Arabic, Bengali
+
+The interface automatically adapts to your browser's language.
 
 ## Installation
 

@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Ingranditore di Immagini"
+  },
+  "extensionDescription": {
+    "message": "Ingrandisce le immagini al passaggio del mouse per una migliore accessibilità. Perfetto per utenti con problemi di vista."
+  },
+  "actionPopupTitle": {
+    "message": "Opzioni Ingranditore di Immagini"
+  },
+  "headingMain": {
+    "message": "Ingranditore di Immagini"
+  },
+  "descriptionMain": {
+    "message": "Passa il mouse sopra un'immagine o un link a un'immagine per ingrandirla istantaneamente."
+  },
+  "labelEnableExtension": {
+    "message": "Abilita estensione"
+  },
+  "sectionZoomTitle": {
+    "message": "Modalità di ingrandimento"
+  },
+  "radioNaturalLabel": {
+    "message": "Dimensione doppia (laterale)"
+  },
+  "radioPageLabel": {
+    "message": "Larghezza completa (sovrapposta)"
+  },
+  "labelZoomFactor": {
+    "message": "Fattore di zoom"
+  },
+  "descEnableExtension": {
+    "message": "Attiva o disattiva l'ingranditore di immagini."
+  },
+  "descZoomOptions": {
+    "message": "Scegli come vengono visualizzate le immagini ingrandite."
+  },
+  "descRadioNatural": {
+    "message": "Mostra l'immagine ingrandita accanto all'originale."
+  },
+  "descRadioPage": {
+    "message": "Sovrappone l'immagine ingrandita sulla pagina."
+  },
+  "descZoomFactor": {
+    "message": "Imposta il livello di ingrandimento."
+  },
+  "footerCreatedBy": {
+    "message": "Creato da <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Vedi il progetto su GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Ispirato da"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Képnagyító"
+  },
+  "extensionDescription": {
+    "message": "Nagyítja a képeket rámutatáskor a jobb hozzáférhetőség érdekében. Tökéletes látássérült felhasználók számára."
+  },
+  "actionPopupTitle": {
+    "message": "Képnagyító Beállítások"
+  },
+  "headingMain": {
+    "message": "Képnagyító"
+  },
+  "descriptionMain": {
+    "message": "Vigye az egeret egy kép vagy képlink fölé az azonnali nagyításhoz."
+  },
+  "labelEnableExtension": {
+    "message": "Bővítmény engedélyezése"
+  },
+  "sectionZoomTitle": {
+    "message": "Nagyítási mód"
+  },
+  "radioNaturalLabel": {
+    "message": "Dupla méret (oldalt)"
+  },
+  "radioPageLabel": {
+    "message": "Teljes szélesség (réteg)"
+  },
+  "labelZoomFactor": {
+    "message": "Nagyítási tényező"
+  },
+  "descEnableExtension": {
+    "message": "Be- vagy kikapcsolja a képnagyítót."
+  },
+  "descZoomOptions": {
+    "message": "Válassza ki, hogyan jelenjenek meg a nagyított képek."
+  },
+  "descRadioNatural": {
+    "message": "A nagyított kép megjelenítése az eredeti mellett."
+  },
+  "descRadioPage": {
+    "message": "A nagyított kép ráhelyezése az oldalra."
+  },
+  "descZoomFactor": {
+    "message": "A nagyítási szint beállítása."
+  },  
+  "footerCreatedBy": {
+    "message": "Készítette: <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Projekt megtekintése GitHubon"
+  },
+  "footerInspiredBy": {
+    "message": "Inspirálta"
+  }
+}

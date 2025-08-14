@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "ছবি বিবর্ধক"
+  },
+  "extensionDescription": {
+    "message": "উন্নত অ্যাক্সেসিবিলিটির জন্য হোভারে ছবি বড় করুন। দৃষ্টিপ্রতিবন্ধী ব্যবহারকারীদের জন্য আদর্শ।"
+  },
+  "actionPopupTitle": {
+    "message": "ছবি বিবর্ধক বিকল্প"
+  },
+  "headingMain": {
+    "message": "ছবি বিবর্ধক"
+  },
+  "descriptionMain": {
+    "message": "তাৎক্ষণিকভাবে ছবি বড় করতে একটি ছবি বা ছবির লিঙ্কে হোভার করুন।"
+  },
+  "labelEnableExtension": {
+    "message": "এক্সটেনশন সক্ষম করুন"
+  },
+  "sectionZoomTitle": {
+    "message": "বিবর্ধন মোড"
+  },
+  "radioNaturalLabel": {
+    "message": "দ্বিগুণ আকার (পাশে)"
+  },
+  "radioPageLabel": {
+    "message": "পূর্ণ প্রস্থ (ওভারলে)"
+  },
+  "labelZoomFactor": {
+    "message": "জুম ফ্যাক্টর"
+  },
+  "descEnableExtension": {
+    "message": "ছবি বিবর্ধক চালু বা বন্ধ করুন।"
+  },
+  "descZoomOptions": {
+    "message": "বড় করা ছবিগুলি কীভাবে প্রদর্শিত হয় তা চয়ন করুন।"
+  },
+  "descRadioNatural": {
+    "message": "মূল ছবির পাশে বড় করা ছবি দেখান।"
+  },
+  "descRadioPage": {
+    "message": "পৃষ্ঠার উপর বড় করা ছবি ওভারলে করুন।"
+  },
+  "descZoomFactor": {
+    "message": "বিবর্ধন স্তর সেট করুন।"
+  },  
+  "footerCreatedBy": {
+    "message": "<strong>সার্টোরিস জিন-পল (মিরোম)</strong> দ্বারা তৈরি"
+  },
+  "footerGithubLink": {
+    "message": "গিটহাবে প্রকল্প দেখুন"
+  },
+  "footerInspiredBy": {
+    "message": "দ্বারা অনুপ্রাণিত"
+  }
+}

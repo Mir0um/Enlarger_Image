@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "छवि विस्तारक"
+  },
+  "extensionDescription": {
+    "message": "बेहतर पहुंच के लिए होवर पर छवियों को बड़ा करें। दृष्टिबाधित उपयोगकर्ताओं के लिए आदर्श।"
+  },
+  "actionPopupTitle": {
+    "message": "छवि विस्तारक विकल्प"
+  },
+  "headingMain": {
+    "message": "छवि विस्तारक"
+  },
+  "descriptionMain": {
+    "message": "छवि को तुरंत बड़ा करने के लिए छवि या छवि के लिंक पर होवर करें।"
+  },
+  "labelEnableExtension": {
+    "message": "एक्सटेंशन सक्षम करें"
+  },
+  "sectionZoomTitle": {
+    "message": "आवर्धन मोड"
+  },
+  "radioNaturalLabel": {
+    "message": "दोगुना आकार (साइड)"
+  },
+  "radioPageLabel": {
+    "message": "पूर्ण चौड़ाई (ओवरले)"
+  },
+  "labelZoomFactor": {
+    "message": "ज़ूम कारक"
+  },
+  "descEnableExtension": {
+    "message": "छवि आवर्धक को चालू या बंद करें।"
+  },
+  "descZoomOptions": {
+    "message": "चुनें कि बड़ी की गई छवियां कैसे प्रदर्शित होती हैं।"
+  },
+  "descRadioNatural": {
+    "message": "मूल के बगल में बड़ी की गई छवि दिखाएं।"
+  },
+  "descRadioPage": {
+    "message": "पृष्ठ पर बड़ी की गई छवि को ओवरले करें।"
+  },
+  "descZoomFactor": {
+    "message": "आवर्धन स्तर सेट करें।"
+  },  
+  "footerCreatedBy": {
+    "message": "<strong>सार्टोरिस जीन-पॉल (मिरोम)</strong> द्वारा निर्मित"
+  },
+  "footerGithubLink": {
+    "message": "GitHub पर प्रोजेक्ट देखें"
+  },
+  "footerInspiredBy": {
+    "message": "से प्रेरित"
+  }
+}

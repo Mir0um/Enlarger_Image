@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "图像放大器"
+  },
+  "extensionDescription": {
+    "message": "鼠标悬停时放大图像以提高可访问性。非常适合视力障碍用户。"
+  },
+  "actionPopupTitle": {
+    "message": "图像放大器选项"
+  },
+  "headingMain": {
+    "message": "图像放大器"
+  },
+  "descriptionMain": {
+    "message": "将鼠标悬停在图像或图像链接上即可立即放大。"
+  },
+  "labelEnableExtension": {
+    "message": "启用扩展"
+  },
+  "sectionZoomTitle": {
+    "message": "放大模式"
+  },
+  "radioNaturalLabel": {
+    "message": "双倍大小（侧边）"
+  },
+  "radioPageLabel": {
+    "message": "全宽（覆盖）"
+  },
+  "labelZoomFactor": {
+    "message": "缩放因子"
+  },
+  "descEnableExtension": {
+    "message": "开启或关闭图像放大器。"
+  },
+  "descZoomOptions": {
+    "message": "选择放大图像的显示方式。"
+  },
+  "descRadioNatural": {
+    "message": "在原图旁边显示放大的图像。"
+  },
+  "descRadioPage": {
+    "message": "在页面上覆盖显示放大的图像。"
+  },
+  "descZoomFactor": {
+    "message": "设置放大级别。"
+  },
+  "footerCreatedBy": {
+    "message": "由 <strong>Sartoris Jean-Paul (Miroum)</strong> 创建"
+  },
+  "footerGithubLink": {
+    "message": "在GitHub上查看项目"
+  },
+  "footerInspiredBy": {
+    "message": "灵感来源于"
+  }
+}

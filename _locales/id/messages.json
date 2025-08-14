@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Pembesar Gambar"
+  },
+  "extensionDescription": {
+    "message": "Perbesar gambar saat hover untuk aksesibilitas yang lebih baik. Sempurna untuk pengguna dengan gangguan penglihatan."
+  },
+  "actionPopupTitle": {
+    "message": "Opsi Pembesar Gambar"
+  },
+  "headingMain": {
+    "message": "Pembesar Gambar"
+  },
+  "descriptionMain": {
+    "message": "Arahkan kursor ke gambar atau tautan gambar untuk memperbesar secara instan."
+  },
+  "labelEnableExtension": {
+    "message": "Aktifkan ekstensi"
+  },
+  "sectionZoomTitle": {
+    "message": "Mode pembesaran"
+  },
+  "radioNaturalLabel": {
+    "message": "Ukuran ganda (samping)"
+  },
+  "radioPageLabel": {
+    "message": "Lebar penuh (overlay)"
+  },
+  "labelZoomFactor": {
+    "message": "Faktor zoom"
+  },
+  "descEnableExtension": {
+    "message": "Nyalakan atau matikan pembesar gambar."
+  },
+  "descZoomOptions": {
+    "message": "Pilih cara menampilkan gambar yang diperbesar."
+  },
+  "descRadioNatural": {
+    "message": "Tampilkan gambar yang diperbesar di samping aslinya."
+  },
+  "descRadioPage": {
+    "message": "Tumpangkan gambar yang diperbesar di atas halaman."
+  },
+  "descZoomFactor": {
+    "message": "Atur tingkat pembesaran."
+  },  
+  "footerCreatedBy": {
+    "message": "Dibuat oleh <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Lihat proyek di GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Terinspirasi oleh"
+  }
+}

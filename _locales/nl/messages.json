@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Afbeelding Vergroter"
+  },
+  "extensionDescription": {
+    "message": "Vergroot afbeeldingen bij hover voor betere toegankelijkheid. Perfect voor visueel gehandicapte gebruikers."
+  },
+  "actionPopupTitle": {
+    "message": "Afbeelding Vergroter Opties"
+  },
+  "headingMain": {
+    "message": "Afbeelding Vergroter"
+  },
+  "descriptionMain": {
+    "message": "Beweeg over een afbeelding of link naar een afbeelding om deze direct te vergroten."
+  },
+  "labelEnableExtension": {
+    "message": "Extensie inschakelen"
+  },
+  "sectionZoomTitle": {
+    "message": "Vergrotingsmodus"
+  },
+  "radioNaturalLabel": {
+    "message": "Dubbele grootte (zijkant)"
+  },
+  "radioPageLabel": {
+    "message": "Volledige breedte (overlay)"
+  },
+  "labelZoomFactor": {
+    "message": "Zoomfactor"
+  },
+  "descEnableExtension": {
+    "message": "Schakelt de afbeelding vergroter aan of uit."
+  },
+  "descZoomOptions": {
+    "message": "Kies hoe vergrote afbeeldingen worden weergegeven."
+  },
+  "descRadioNatural": {
+    "message": "Toont de vergrote afbeelding naast het origineel."
+  },
+  "descRadioPage": {
+    "message": "Legt de vergrote afbeelding over de pagina."
+  },
+  "descZoomFactor": {
+    "message": "Stelt het vergrotingsniveau in."
+  },
+  "footerCreatedBy": {
+    "message": "Gemaakt door <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Bekijk het project op GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Geïnspireerd door"
+  }
+}
