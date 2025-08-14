@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Kuvansuurennin"
+  },
+  "extensionDescription": {
+    "message": "Suurentaa kuvia hover-toiminnolla paremman saavutettavuuden vuoksi. Täydellinen näkövammaisille käyttäjille."
+  },
+  "actionPopupTitle": {
+    "message": "Kuvansuurennin Asetukset"
+  },
+  "headingMain": {
+    "message": "Kuvansuurennin"
+  },
+  "descriptionMain": {
+    "message": "Vie hiiri kuvan tai kuvalinkin päälle suurentaaksesi sen välittömästi."
+  },
+  "labelEnableExtension": {
+    "message": "Ota laajennus käyttöön"
+  },
+  "sectionZoomTitle": {
+    "message": "Suurennustila"
+  },
+  "radioNaturalLabel": {
+    "message": "Kaksinkertainen koko (vierellä)"
+  },
+  "radioPageLabel": {
+    "message": "Täysi leveys (päällä)"
+  },
+  "labelZoomFactor": {
+    "message": "Zoomauskerroin"
+  },
+  "descEnableExtension": {
+    "message": "Kytkee kuvansuurentimen päälle tai pois."
+  },
+  "descZoomOptions": {
+    "message": "Valitse miten suurennetut kuvat näytetään."
+  },
+  "descRadioNatural": {
+    "message": "Näytä suurennettu kuva alkuperäisen vierellä."
+  },
+  "descRadioPage": {
+    "message": "Aseta suurennettu kuva sivun päälle."
+  },
+  "descZoomFactor": {
+    "message": "Aseta suurennustaso."
+  },  
+  "footerCreatedBy": {
+    "message": "Luonut <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Katso projekti GitHubissa"
+  },
+  "footerInspiredBy": {
+    "message": "Inspiroitunut"
+  }
+}

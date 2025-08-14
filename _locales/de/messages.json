@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Bildvergrößerer"
+  },
+  "extensionDescription": {
+    "message": "Vergrößert Bilder beim Überfahren für bessere Zugänglichkeit. Perfekt für sehbehinderte Benutzer."
+  },
+  "actionPopupTitle": {
+    "message": "Bildvergrößerer Optionen"
+  },
+  "headingMain": {
+    "message": "Bildvergrößerer"
+  },
+  "descriptionMain": {
+    "message": "Fahren Sie über ein Bild oder einen Link zu einem Bild, um es sofort zu vergrößern."
+  },
+  "labelEnableExtension": {
+    "message": "Erweiterung aktivieren"
+  },
+  "sectionZoomTitle": {
+    "message": "Vergrößerungsmodus"
+  },
+  "radioNaturalLabel": {
+    "message": "Doppelte Größe (seitlich)"
+  },
+  "radioPageLabel": {
+    "message": "Vollbreite (Überlagerung)"
+  },
+  "labelZoomFactor": {
+    "message": "Zoomfaktor"
+  },
+  "descEnableExtension": {
+    "message": "Schaltet den Bildvergrößerer ein oder aus."
+  },
+  "descZoomOptions": {
+    "message": "Wählen Sie, wie vergrößerte Bilder angezeigt werden."
+  },
+  "descRadioNatural": {
+    "message": "Zeigt das vergrößerte Bild neben dem Original."
+  },
+  "descRadioPage": {
+    "message": "Überlagert das vergrößerte Bild über die Seite."
+  },
+  "descZoomFactor": {
+    "message": "Legt den Vergrößerungsgrad fest."
+  },
+  "footerCreatedBy": {
+    "message": "Erstellt von <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Projekt auf GitHub ansehen"
+  },
+  "footerInspiredBy": {
+    "message": "Inspiriert von"
+  }
+}

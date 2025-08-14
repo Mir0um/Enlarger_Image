@@ -1,4 +1,4 @@
-# Image Agrandisseur
+# Hover_Zoom
 *[English version](README_EN.md)*
 
 ![Icône de l'extension](icons/icon128.png)
@@ -16,15 +16,32 @@ Une extension Chrome simple, légère et efficace conçue pour l'accessibilité.
 ## Fonctionnalités principales
 
 *   **Agrandissement au survol** : Pas besoin de cliquer, il suffit de passer la souris sur un élément pour l'activer.
-*   **Détection Intelligente** : Fonctionne sur les balises `<img>` et `<video>` ainsi que sur les liens `<a>` pointant vers des fichiers image ou vidéo (formats courants comme `.jpg`, `.png`, `.gif`, `.mp4`, `.webm`, etc.).
+*   **Détection Intelligente** : Fonctionne sur les balises `<img>` et `<video>` ainsi que sur les liens `<a>` pointant vers des fichiers image ou vidéo. 
+    *   **Formats d'images supportés** : `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`, `.svg`, `.bmp`, `.apng`, `.ico`, `.tif`, `.tiff`
+    *   **Formats vidéo supportés** : `.mp4`, `.webm`, `.ogg`, `.ogv`, `.mov`, `.mkv`, `.flv`
 *   **Lecture automatique des vidéos** : Lorsqu'une vidéo est détectée, elle se lance automatiquement, sans son et en boucle dans la fenêtre d'aperçu.
+*   **Gestion des URLs relatives** : Détection intelligente des liens d'images qui fonctionne avec les URLs relatives et absolues.
 *   **Deux Modes d'Affichage** :
     1.  **Taille Doublée (côté)** : Affiche l'image à 200% de sa taille originale dans une fenêtre à côté du curseur. La fenêtre se positionne intelligemment à droite ou à gauche pour ne jamais sortir de l'écran.
     2.  **Pleine Largeur (superposé)** : Affiche l'image en grand format, superposée au contenu de la page et occupant la largeur de la fenêtre.
 *   **Contrôle Total** : Un popup simple et intuitif vous permet d'activer/désactiver l'extension et de changer de mode à la volée.
-*   **Facteur de zoom configurable** : Ajustez le niveau d'agrandissement directement depuis le popup.
+*   **Facteur de zoom configurable** : Ajustez le niveau d'agrandissement directement depuis le popup (précision décimale de 0,1).
+*   **Positionnement intelligent** : La fenêtre d'aperçu se positionne automatiquement pour rester visible à l'écran.
+*   **Animations fluides** : Transitions en douceur avec des effets d'animation lors de l'affichage.
 *   **Fermeture rapide avec Échap** : Appuyez simplement sur la touche `Échap` pour fermer instantanément toute prévisualisation en cours, sans avoir besoin de déplacer la souris.
 *   **Léger et Performant** : Conçu pour avoir un impact minimal sur les performances de navigation, en n'activant les scripts que lorsque c'est nécessaire.
+
+## Langues supportées
+
+L'extension est disponible en **27 langues** :
+
+🌍 **Européennes** : Français, Anglais, Allemand, Espagnol, Italien, Néerlandais, Polonais, Portugais, Russe, Suédois, Norvégien, Finnois, Danois, Tchèque, Hongrois, Ukrainien, Turc
+
+🌏 **Asiatiques** : Chinois simplifié, Japonais, Coréen, Hindi, Thaï, Vietnamien, Indonésien, Malais
+
+🌍 **Autres** : Arabe, Bengali
+
+L'interface s'adapte automatiquement à la langue de votre navigateur.
 
 ## Installation
 

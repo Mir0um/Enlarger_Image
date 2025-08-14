@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Powiększacz Obrazów"
+  },
+  "extensionDescription": {
+    "message": "Powiększa obrazy po najechaniu myszą dla lepszej dostępności. Idealne dla użytkowników z wadami wzroku."
+  },
+  "actionPopupTitle": {
+    "message": "Opcje Powiększacza Obrazów"
+  },
+  "headingMain": {
+    "message": "Powiększacz Obrazów"
+  },
+  "descriptionMain": {
+    "message": "Najedź na obraz lub link do obrazu, aby natychmiastowo go powiększyć."
+  },
+  "labelEnableExtension": {
+    "message": "Włącz rozszerzenie"
+  },
+  "sectionZoomTitle": {
+    "message": "Tryb powiększania"
+  },
+  "radioNaturalLabel": {
+    "message": "Podwójny rozmiar (z boku)"
+  },
+  "radioPageLabel": {
+    "message": "Pełna szerokość (nakładka)"
+  },
+  "labelZoomFactor": {
+    "message": "Współczynnik powiększenia"
+  },
+  "descEnableExtension": {
+    "message": "Włącza lub wyłącza powiększacz obrazów."
+  },
+  "descZoomOptions": {
+    "message": "Wybierz sposób wyświetlania powiększonych obrazów."
+  },
+  "descRadioNatural": {
+    "message": "Pokaż powiększony obraz obok oryginału."
+  },
+  "descRadioPage": {
+    "message": "Nałóż powiększony obraz na stronę."
+  },
+  "descZoomFactor": {
+    "message": "Ustaw poziom powiększenia."
+  },  
+  "footerCreatedBy": {
+    "message": "Utworzone przez <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Zobacz projekt na GitHubie"
+  },
+  "footerInspiredBy": {
+    "message": "Zainspirowane przez"
+  }
+}

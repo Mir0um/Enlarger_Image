@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Resim Büyütücü"
+  },
+  "extensionDescription": {
+    "message": "Daha iyi erişilebilirlik için üzerine gelindiğinde resimleri büyütür. Görme engelli kullanıcılar için mükemmel."
+  },
+  "actionPopupTitle": {
+    "message": "Resim Büyütücü Seçenekleri"
+  },
+  "headingMain": {
+    "message": "Resim Büyütücü"
+  },
+  "descriptionMain": {
+    "message": "Anında büyütmek için bir resmin üzerine veya resim bağlantısına gelin."
+  },
+  "labelEnableExtension": {
+    "message": "Uzantıyı etkinleştir"
+  },
+  "sectionZoomTitle": {
+    "message": "Büyütme modu"
+  },
+  "radioNaturalLabel": {
+    "message": "İki kat boyut (yan)"
+  },
+  "radioPageLabel": {
+    "message": "Tam genişlik (kapla)"
+  },
+  "labelZoomFactor": {
+    "message": "Yakınlaştırma faktörü"
+  },
+  "descEnableExtension": {
+    "message": "Resim büyütücüyü açar veya kapatır."
+  },
+  "descZoomOptions": {
+    "message": "Büyütülen resimlerin nasıl görüntüleneceğini seçin."
+  },
+  "descRadioNatural": {
+    "message": "Büyütülen resmi orijinalin yanında göster."
+  },
+  "descRadioPage": {
+    "message": "Büyütülen resmi sayfanın üzerine kapla."
+  },
+  "descZoomFactor": {
+    "message": "Büyütme seviyesini ayarlayın."
+  },  
+  "footerCreatedBy": {
+    "message": "<strong>Sartoris Jean-Paul (Miroum)</strong> tarafından oluşturuldu"
+  },
+  "footerGithubLink": {
+    "message": "Projeyi GitHub'da görün"
+  },
+  "footerInspiredBy": {
+    "message": "İlham kaynağı"
+  }
+}

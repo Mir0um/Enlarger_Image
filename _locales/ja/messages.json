@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "画像拡大ツール"
+  },
+  "extensionDescription": {
+    "message": "ホバー時に画像を拡大してアクセシビリティを向上させます。視覚障害のあるユーザーに最適です。"
+  },
+  "actionPopupTitle": {
+    "message": "画像拡大ツール オプション"
+  },
+  "headingMain": {
+    "message": "画像拡大ツール"
+  },
+  "descriptionMain": {
+    "message": "画像または画像へのリンクにカーソルを合わせると、即座に拡大されます。"
+  },
+  "labelEnableExtension": {
+    "message": "拡張機能を有効にする"
+  },
+  "sectionZoomTitle": {
+    "message": "拡大モード"
+  },
+  "radioNaturalLabel": {
+    "message": "2倍サイズ（横）"
+  },
+  "radioPageLabel": {
+    "message": "全幅（オーバーレイ）"
+  },
+  "labelZoomFactor": {
+    "message": "ズーム倍率"
+  },
+  "descEnableExtension": {
+    "message": "画像拡大ツールのオン・オフを切り替えます。"
+  },
+  "descZoomOptions": {
+    "message": "拡大された画像の表示方法を選択してください。"
+  },
+  "descRadioNatural": {
+    "message": "拡大された画像を元の画像の横に表示します。"
+  },
+  "descRadioPage": {
+    "message": "拡大された画像をページ上にオーバーレイ表示します。"
+  },
+  "descZoomFactor": {
+    "message": "拡大レベルを設定します。"
+  },
+  "footerCreatedBy": {
+    "message": "<strong>Sartoris Jean-Paul (Miroum)</strong>によって作成"
+  },
+  "footerGithubLink": {
+    "message": "GitHubでプロジェクトを見る"
+  },
+  "footerInspiredBy": {
+    "message": "インスピレーション元"
+  }
+}

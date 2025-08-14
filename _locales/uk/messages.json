@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Збільшувач Зображень"
+  },
+  "extensionDescription": {
+    "message": "Збільшує зображення при наведенні для кращої доступності. Ідеально для користувачів з вадами зору."
+  },
+  "actionPopupTitle": {
+    "message": "Параметри Збільшувача Зображень"
+  },
+  "headingMain": {
+    "message": "Збільшувач Зображень"
+  },
+  "descriptionMain": {
+    "message": "Наведіть на зображення або посилання на зображення, щоб миттєво його збільшити."
+  },
+  "labelEnableExtension": {
+    "message": "Увімкнути розширення"
+  },
+  "sectionZoomTitle": {
+    "message": "Режим збільшення"
+  },
+  "radioNaturalLabel": {
+    "message": "Подвійний розмір (збоку)"
+  },
+  "radioPageLabel": {
+    "message": "Повна ширина (накладка)"
+  },
+  "labelZoomFactor": {
+    "message": "Фактор збільшення"
+  },
+  "descEnableExtension": {
+    "message": "Вмикає або вимикає збільшувач зображень."
+  },
+  "descZoomOptions": {
+    "message": "Виберіть спосіб відображення збільшених зображень."
+  },
+  "descRadioNatural": {
+    "message": "Показати збільшене зображення поруч з оригіналом."
+  },
+  "descRadioPage": {
+    "message": "Накласти збільшене зображення на сторінку."
+  },
+  "descZoomFactor": {
+    "message": "Встановити рівень збільшення."
+  },  
+  "footerCreatedBy": {
+    "message": "Створено <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Переглянути проект на GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Натхненно"
+  }
+}

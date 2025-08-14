@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Увеличитель Изображений"
+  },
+  "extensionDescription": {
+    "message": "Увеличивает изображения при наведении для лучшей доступности. Идеально для пользователей с нарушениями зрения."
+  },
+  "actionPopupTitle": {
+    "message": "Настройки Увеличителя Изображений"
+  },
+  "headingMain": {
+    "message": "Увеличитель Изображений"
+  },
+  "descriptionMain": {
+    "message": "Наведите курсор на изображение или ссылку на изображение, чтобы мгновенно увеличить его."
+  },
+  "labelEnableExtension": {
+    "message": "Включить расширение"
+  },
+  "sectionZoomTitle": {
+    "message": "Режим увеличения"
+  },
+  "radioNaturalLabel": {
+    "message": "Двойной размер (сбоку)"
+  },
+  "radioPageLabel": {
+    "message": "Полная ширина (наложение)"
+  },
+  "labelZoomFactor": {
+    "message": "Коэффициент масштабирования"
+  },
+  "descEnableExtension": {
+    "message": "Включает или выключает увеличитель изображений."
+  },
+  "descZoomOptions": {
+    "message": "Выберите, как отображаются увеличенные изображения."
+  },
+  "descRadioNatural": {
+    "message": "Показывает увеличенное изображение рядом с оригиналом."
+  },
+  "descRadioPage": {
+    "message": "Накладывает увеличенное изображение поверх страницы."
+  },
+  "descZoomFactor": {
+    "message": "Устанавливает уровень увеличения."
+  },
+  "footerCreatedBy": {
+    "message": "Создано <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Посмотреть проект на GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Вдохновлено"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "extensionName": {
+    "message": "Bộ Phóng To Hình Ảnh"
+  },
+  "extensionDescription": {
+    "message": "Phóng to hình ảnh khi di chuột để có khả năng truy cập tốt hơn. Hoàn hảo cho người dùng khiếm thị."
+  },
+  "actionPopupTitle": {
+    "message": "Tùy Chọn Bộ Phóng To Hình Ảnh"
+  },
+  "headingMain": {
+    "message": "Bộ Phóng To Hình Ảnh"
+  },
+  "descriptionMain": {
+    "message": "Di chuột qua hình ảnh hoặc liên kết hình ảnh để phóng to ngay lập tức."
+  },
+  "labelEnableExtension": {
+    "message": "Bật tiện ích mở rộng"
+  },
+  "sectionZoomTitle": {
+    "message": "Chế độ phóng to"
+  },
+  "radioNaturalLabel": {
+    "message": "Kích thước gấp đôi (bên cạnh)"
+  },
+  "radioPageLabel": {
+    "message": "Chiều rộng đầy đủ (lớp phủ)"
+  },
+  "labelZoomFactor": {
+    "message": "Hệ số zoom"
+  },
+  "descEnableExtension": {
+    "message": "Bật hoặc tắt bộ phóng to hình ảnh."
+  },
+  "descZoomOptions": {
+    "message": "Chọn cách hiển thị hình ảnh đã phóng to."
+  },
+  "descRadioNatural": {
+    "message": "Hiển thị hình ảnh đã phóng to bên cạnh bản gốc."
+  },
+  "descRadioPage": {
+    "message": "Phủ hình ảnh đã phóng to lên trang."
+  },
+  "descZoomFactor": {
+    "message": "Đặt mức độ phóng to."
+  },  
+  "footerCreatedBy": {
+    "message": "Được tạo bởi <strong>Sartoris Jean-Paul (Miroum)</strong>"
+  },
+  "footerGithubLink": {
+    "message": "Xem dự án trên GitHub"
+  },
+  "footerInspiredBy": {
+    "message": "Lấy cảm hứng từ"
+  }
+}
